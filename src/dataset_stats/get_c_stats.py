@@ -15,13 +15,17 @@ FILE_PATH = Path(__file__)
 
 # Assuming the Language setup is already done as in your code
 # If not, uncomment these lines and adjust the paths
-"""
+build_output = "/home/zining/CRUST-bench/src/utils/c_build/my-languages.so"  # 输出 so 文件绝对路径
+tree_sitter_c_path = "/home/zining/utils/tree-sitter-c"  # clone 仓库绝对路径（确认 ls 这个有 src/parser.c）
+
 Language.build_library(
-    "c_build/my-languages.so",
-    ["path/to/tree-sitter-c"],
+    build_output,  # str 输出
+    [tree_sitter_c_path]  # str 输入目录
 )
-"""
-C_LANGUAGE = Language(FILE_PATH.parent / "utils/c_build/my-languages.so", "c")
+
+# 加载
+so_path = build_output  # 直接用绝对 str
+C_LANGUAGE = Language(so_path, "c")
 PARSER = Parser()
 PARSER.set_language(C_LANGUAGE)
 

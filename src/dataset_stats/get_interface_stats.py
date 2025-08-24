@@ -6,10 +6,25 @@ from tree_sitter import Language, Parser
 import sys
 import re
 from collections import defaultdict
-from parse_rust import get_rust_functions
-# Use the existing tree-sitter setup
-FILE_PATH = Path(__file__)
-RUST_LANGUAGE = Language(FILE_PATH.parent / "utils/rust_build/my-languages.so", "rust")
+# 修改1: 添加 sys.path to import from src/utils (absolute path for parse_rust.py)
+sys.path.insert(0, '/home/zining/CRUST-bench/src/utils')
+
+from parse_rust import get_rust_functions  # original import, now works with path
+
+# 修改2: Absolute paths for build_library and loading
+build_output = "/home/zining/CRUST-bench/src/utils/rust_build/my-languages.so"  # absolute output path (mkdir -p rust_build)
+tree_sitter_rust_path = "/home/zining/utils/tree-sitter-rust"  # your absolute clone path
+
+# Build the library with try-except to handle errors
+try:
+    Language.build_library(
+        build_output,
+        [tree_sitter_rust_path]
+    )
+except Exception as e:
+    print(f"Build error: {e} - using existing so if available.")
+
+RUST_LANGUAGE = Language(build_output, "rust")
 PARSER = Parser()
 PARSER.set_language(RUST_LANGUAGE)
 

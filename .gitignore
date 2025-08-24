@@ -3,3 +3,5 @@ datasets/RBench/
 **/__pycache__/
 **/cache/
 **/results/
+rust_analysis_report.json
+src/outputs

@@ -6,10 +6,14 @@ from tree_sitter import Language, Parser
 import sys
 import re
 from collections import defaultdict
-from parse_rust import get_rust_functions
+sys.path.insert(0, str(Path(__file__).parent.parent / 'utils'))  # parent.parent is src, then utils
+
+from parse_rust import get_rust_functions  # now can import
 # Use the existing tree-sitter setup
 FILE_PATH = Path(__file__)
-RUST_LANGUAGE = Language(FILE_PATH.parent / "utils/rust_build/my-languages.so", "rust")
+build_output = FILE_PATH.parent.parent / "utils/rust_build/my-languages.so"
+so_path = str(build_output)
+RUST_LANGUAGE = Language(so_path, "rust")
 PARSER = Parser()
 PARSER.set_language(RUST_LANGUAGE)
 

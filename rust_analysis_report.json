@@ -1,0 +1,5347 @@
+{
+  "project_stats": {
+    "Megalania": {
+      "total_files": 21,
+      "interface_files": 2,
+      "total_functions": 56,
+      "total_args": 72,
+      "borrowed_arguments": 22,
+      "custom_arg_types": [
+        "&mut TopKPacketFinder",
+        "F",
+        "PacketSlabUndo",
+        "LZMAProperties",
+        "&LZMAPacket",
+        "&mut dyn OutputInterface",
+        "&LZMAState",
+        "&mut LZMAState",
+        "&mut [LZMAPacket]",
+        "&PacketEnumerator",
+        "Box<dyn Fn(u32, u32) -> i32>",
+        "PacketSlab",
+        "&mut [Prob]",
+        "&mut Prob",
+        "&mut LZMAState<'a>",
+        "&mut dyn EncoderInterface",
+        "&mut PacketSlab",
+        "P",
+        "LZMAState",
+        "LZMAPacket",
+        "File"
+      ],
+      "custom_arg_types_count": 21,
+      "custom_return_types": [
+        "io::Result<()>",
+        " {\n ",
+        " [LZMAPacket] {\n ",
+        "Option<LZMAPacket>",
+        "e {\n ",
+        "LZMAPacket"
+      ],
+      "custom_return_types_count": 6,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 39.285714285714285,
+      "percentage_functions_custom_type": 46.42857142857143,
+      "percentage_functions_with_custom_return_type": 64.28571428571429,
+      "percentage_functions_with_mut": 30.357142857142854,
+      "percentage_functions_with_lifetime": 3.571428571428571,
+      "percentage_functions_with_pointer_like_types": 1.7857142857142856,
+      "custom_types": {
+        "structs": [
+          "PacketSlabNeighbour",
+          "ContextStateProbabilityModel",
+          "DistanceProbabilityModel",
+          "PacketEnumerator",
+          "PacketSlabUndoStack",
+          "SubstringEnumerator",
+          "MaxHeap",
+          "LZMAProbabilityModel",
+          "LZMAState",
+          "TopKEntry",
+          "LengthProbabilityModel",
+          "PacketSlabUndo",
+          "PacketSlab",
+          "LZMAProperties",
+          "TopKPacketFinder",
+          "LZMAPacket"
+        ],
+        "structs_count": 16,
+        "enums": [
+          "LZMAPacketType"
+        ],
+        "enums_count": 1,
+        "type_aliases": [
+          "Prob"
+        ],
+        "type_aliases_count": 1,
+        "traits": [
+          "EncoderInterface",
+          "OutputInterface"
+        ],
+        "traits_count": 2
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "ted": {
+      "total_files": 6,
+      "interface_files": 0,
+      "total_functions": 40,
+      "total_args": 27,
+      "borrowed_arguments": 7,
+      "custom_arg_types": [
+        "&std::fs::File",
+        "&TextBuffer",
+        "&mut VirtualScreen"
+      ],
+      "custom_arg_types_count": 3,
+      "custom_return_types": [],
+      "custom_return_types_count": 0,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 17.5,
+      "percentage_functions_custom_type": 10.0,
+      "percentage_functions_with_custom_return_type": 57.49999999999999,
+      "percentage_functions_with_mut": 7.5,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [
+          "VirtualScreen",
+          "EditorState",
+          "TextBuffer",
+          "Cursor",
+          "GapBuffer"
+        ],
+        "structs_count": 5,
+        "enums": [],
+        "enums_count": 0,
+        "type_aliases": [],
+        "type_aliases_count": 0,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "cJSON": {
+      "total_files": 2,
+      "interface_files": 0,
+      "total_functions": 31,
+      "total_args": 20,
+      "borrowed_arguments": 7,
+      "custom_arg_types": [
+        "&'a str",
+        "&CJson",
+        "S",
+        "F",
+        "&mut fmt::Formatter<'_>",
+        "&mut impl fmt::Write",
+        "CJson"
+      ],
+      "custom_arg_types_count": 7,
+      "custom_return_types": [
+        "Result<(), &'static str>",
+        "&'a str",
+        "Option<&CJson>",
+        "Result<(), CJsonError>",
+        "Result<CJson, CJsonError>",
+        "fmt::Result",
+        "Result<String, CJsonError>"
+      ],
+      "custom_return_types_count": 7,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 22.58064516129032,
+      "percentage_functions_custom_type": 25.806451612903224,
+      "percentage_functions_with_custom_return_type": 58.06451612903226,
+      "percentage_functions_with_mut": 9.67741935483871,
+      "percentage_functions_with_lifetime": 3.225806451612903,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [
+          "Parser"
+        ],
+        "structs_count": 1,
+        "enums": [
+          "CJson",
+          "CJsonError"
+        ],
+        "enums_count": 2,
+        "type_aliases": [],
+        "type_aliases_count": 0,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "kairoCompiler": {
+      "total_files": 10,
+      "interface_files": 0,
+      "total_functions": 108,
+      "total_args": 151,
+      "borrowed_arguments": 88,
+      "custom_arg_types": [
+        "impl Into<PathBuf>",
+        "&mut CompileProcess",
+        "&mut Token",
+        "&mut Option<Token>",
+        "&Buffer",
+        "Node",
+        "LexProcessFunctions",
+        "&mut Buffer",
+        "&mut LexProcess",
+        "&LexProcess",
+        "&Token",
+        "&mut crate::lex_process::LexProcess",
+        "&mut Vector",
+        "Vector",
+        "&mut crate::vector::Vector",
+        "std::fs::File",
+        "LexProcess",
+        "&Node",
+        "Buffer",
+        "CompileProcess",
+        "&Pos",
+        "&Vector"
+      ],
+      "custom_arg_types_count": 22,
+      "custom_return_types": [
+        "io::Result<Self>",
+        "Token",
+        "Option<Token>",
+        "Option<Node>",
+        "Option<CompileProcess>",
+        "Node",
+        "Buffer",
+        "CompileProcess",
+        "Vector",
+        "LexProcess",
+        "Option<&Vector>"
+      ],
+      "custom_return_types_count": 11,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 81.48148148148148,
+      "percentage_functions_custom_type": 86.11111111111111,
+      "percentage_functions_with_custom_return_type": 57.407407407407405,
+      "percentage_functions_with_mut": 55.55555555555556,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [
+          "ClonableFile",
+          "Token",
+          "NodeBinded",
+          "TokenNumber",
+          "Buffer",
+          "Node",
+          "LexProcessFunctions",
+          "CompileProcess",
+          "Vector",
+          "LexProcess",
+          "CompileProcessInputFile",
+          "Pos"
+        ],
+        "structs_count": 12,
+        "enums": [],
+        "enums_count": 0,
+        "type_aliases": [],
+        "type_aliases_count": 0,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "btree_map": {
+      "total_files": 2,
+      "interface_files": 0,
+      "total_functions": 18,
+      "total_args": 27,
+      "borrowed_arguments": 6,
+      "custom_arg_types": [
+        "&mut EntryList",
+        "Arc<Node>",
+        "&T",
+        "&mut Arc<Node>"
+      ],
+      "custom_arg_types_count": 4,
+      "custom_return_types": [
+        "Option<Arc<Node>>",
+        "T",
+        "Option<Value>",
+        "EntryList"
+      ],
+      "custom_return_types_count": 4,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 33.33333333333333,
+      "percentage_functions_custom_type": 22.22222222222222,
+      "percentage_functions_with_custom_return_type": 66.66666666666666,
+      "percentage_functions_with_mut": 11.11111111111111,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 11.11111111111111,
+      "custom_types": {
+        "structs": [
+          "BTree",
+          "Entry",
+          "Node",
+          "BTreeKey",
+          "EntryList",
+          "Value"
+        ],
+        "structs_count": 6,
+        "enums": [],
+        "enums_count": 0,
+        "type_aliases": [],
+        "type_aliases_count": 0,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "Remimu": {
+      "total_files": 2,
+      "interface_files": 0,
+      "total_functions": 9,
+      "total_args": 17,
+      "borrowed_arguments": 4,
+      "custom_arg_types": [
+        "&[RegexToken]",
+        "&mut Vec<RegexToken>",
+        "&mut [i64]"
+      ],
+      "custom_arg_types_count": 3,
+      "custom_return_types": [],
+      "custom_return_types_count": 0,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 44.44444444444444,
+      "percentage_functions_custom_type": 44.44444444444444,
+      "percentage_functions_with_custom_return_type": 33.33333333333333,
+      "percentage_functions_with_mut": 33.33333333333333,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [
+          "RegexToken",
+          "RegexMatcherState"
+        ],
+        "structs_count": 2,
+        "enums": [
+          "State"
+        ],
+        "enums_count": 1,
+        "type_aliases": [],
+        "type_aliases_count": 0,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "gorilla_paper_encode": {
+      "total_files": 2,
+      "interface_files": 0,
+      "total_functions": 22,
+      "total_args": 17,
+      "borrowed_arguments": 4,
+      "custom_arg_types": [
+        "U8",
+        "U32",
+        "&mut U32",
+        "F64",
+        "&mut [U8]",
+        "U64",
+        "&[U8]",
+        "&mut [F64]"
+      ],
+      "custom_arg_types_count": 8,
+      "custom_return_types": [
+        "U64"
+      ],
+      "custom_return_types_count": 1,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 18.181818181818183,
+      "percentage_functions_custom_type": 40.909090909090914,
+      "percentage_functions_with_custom_return_type": 9.090909090909092,
+      "percentage_functions_with_mut": 18.181818181818183,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [
+          "FloatEncoder",
+          "FloatDecoder",
+          "BitReader",
+          "BitWriter"
+        ],
+        "structs_count": 4,
+        "enums": [],
+        "enums_count": 0,
+        "type_aliases": [
+          "F64",
+          "U8",
+          "U64",
+          "U32"
+        ],
+        "type_aliases_count": 4,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "rhbloom": {
+      "total_files": 2,
+      "interface_files": 0,
+      "total_functions": 11,
+      "total_args": 8,
+      "borrowed_arguments": 0,
+      "custom_arg_types": [],
+      "custom_arg_types_count": 0,
+      "custom_return_types": [],
+      "custom_return_types_count": 0,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 0.0,
+      "percentage_functions_custom_type": 0.0,
+      "percentage_functions_with_custom_return_type": 18.181818181818183,
+      "percentage_functions_with_mut": 0.0,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [
+          "RHBloom"
+        ],
+        "structs_count": 1,
+        "enums": [],
+        "enums_count": 0,
+        "type_aliases": [],
+        "type_aliases_count": 0,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "LTRE": {
+      "total_files": 2,
+      "interface_files": 0,
+      "total_functions": 63,
+      "total_args": 64,
+      "borrowed_arguments": 41,
+      "custom_arg_types": [
+        "Nfa",
+        "&mut SymSet",
+        "&Dfa",
+        "&Nfa",
+        "&mut Nfa",
+        "Dfa",
+        "&mut Option<Dfa>",
+        "&mut Vec<DState>",
+        "&mut ParseContext",
+        "&mut std::fmt::Formatter<'_>",
+        "&mut Dfa",
+        "&SymSet"
+      ],
+      "custom_arg_types_count": 12,
+      "custom_return_types": [
+        "Nfa",
+        "Result<Nfa, String>",
+        "std::fmt::Result",
+        "impl Iterator<Item = usize> + '_",
+        "Result<(Dfa, usize), String>",
+        "Result<SymSet, String>",
+        "SymSet",
+        "Dfa"
+      ],
+      "custom_return_types_count": 8,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 65.07936507936508,
+      "percentage_functions_custom_type": 55.55555555555556,
+      "percentage_functions_with_custom_return_type": 60.317460317460316,
+      "percentage_functions_with_mut": 38.095238095238095,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [
+          "Nfa",
+          "SymSet",
+          "Dfa",
+          "NState",
+          "ParseContext",
+          "DState"
+        ],
+        "structs_count": 6,
+        "enums": [],
+        "enums_count": 0,
+        "type_aliases": [],
+        "type_aliases_count": 0,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "SlothLang": {
+      "total_files": 6,
+      "interface_files": 0,
+      "total_functions": 15,
+      "total_args": 10,
+      "borrowed_arguments": 6,
+      "custom_arg_types": [
+        "&mut Option<SlothProgram>",
+        "&std::fs::File",
+        "Option<SlothProgram>"
+      ],
+      "custom_arg_types_count": 3,
+      "custom_return_types": [
+        "Option<SlothProgram>"
+      ],
+      "custom_return_types_count": 1,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 40.0,
+      "percentage_functions_custom_type": 26.666666666666668,
+      "percentage_functions_with_custom_return_type": 53.333333333333336,
+      "percentage_functions_with_mut": 6.666666666666667,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [
+          "ListNode",
+          "Stack",
+          "SlothProgram"
+        ],
+        "structs_count": 3,
+        "enums": [
+          "TypeCode",
+          "CompCodes",
+          "Opcodes"
+        ],
+        "enums_count": 3,
+        "type_aliases": [
+          "UByte"
+        ],
+        "type_aliases_count": 1,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "Phills_DHT": {
+      "total_files": 2,
+      "interface_files": 0,
+      "total_functions": 8,
+      "total_args": 6,
+      "borrowed_arguments": 0,
+      "custom_arg_types": [
+        "T"
+      ],
+      "custom_arg_types_count": 1,
+      "custom_return_types": [
+        "HASHTABLE<T>",
+        "&Option<T>"
+      ],
+      "custom_return_types_count": 2,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 0.0,
+      "percentage_functions_custom_type": 12.5,
+      "percentage_functions_with_custom_return_type": 37.5,
+      "percentage_functions_with_mut": 0.0,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [
+          "HASHTABLE"
+        ],
+        "structs_count": 1,
+        "enums": [],
+        "enums_count": 0,
+        "type_aliases": [],
+        "type_aliases_count": 0,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "XOpt": {
+      "total_files": 3,
+      "interface_files": 0,
+      "total_functions": 17,
+      "total_args": 52,
+      "borrowed_arguments": 11,
+      "custom_arg_types": [
+        "&[XoptOption]",
+        "&[&str]",
+        "Option<&XoptAutohelpOptions>",
+        "&mut XoptContext",
+        "&mut dyn std::io::Write"
+      ],
+      "custom_arg_types_count": 5,
+      "custom_return_types": [
+        "XoptOption",
+        "Option<Box<XoptContext>>"
+      ],
+      "custom_return_types_count": 2,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 64.70588235294117,
+      "percentage_functions_custom_type": 35.294117647058826,
+      "percentage_functions_with_custom_return_type": 52.94117647058824,
+      "percentage_functions_with_mut": 58.82352941176471,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [
+          "XoptAutohelpOptions",
+          "XoptOption",
+          "XoptContext"
+        ],
+        "structs_count": 3,
+        "enums": [],
+        "enums_count": 0,
+        "type_aliases": [
+          "XoptCallback"
+        ],
+        "type_aliases_count": 1,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "murmurhash_c": {
+      "total_files": 2,
+      "interface_files": 0,
+      "total_functions": 6,
+      "total_args": 3,
+      "borrowed_arguments": 1,
+      "custom_arg_types": [],
+      "custom_arg_types_count": 0,
+      "custom_return_types": [],
+      "custom_return_types_count": 0,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 16.666666666666664,
+      "percentage_functions_custom_type": 0.0,
+      "percentage_functions_with_custom_return_type": 50.0,
+      "percentage_functions_with_mut": 0.0,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [],
+        "structs_count": 0,
+        "enums": [],
+        "enums_count": 0,
+        "type_aliases": [],
+        "type_aliases_count": 0,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "cissy": {
+      "total_files": 5,
+      "interface_files": 0,
+      "total_functions": 27,
+      "total_args": 42,
+      "borrowed_arguments": 16,
+      "custom_arg_types": [
+        "&CsvLine",
+        "&[&str]",
+        "&mut [&str]",
+        "&mut File",
+        "&'a mut String",
+        "Option<Box<RangeElement>>",
+        "&mut std::fs::File",
+        "&Option<Box<RangeElement>>",
+        "&'a Option<Box<RangeElement>>"
+      ],
+      "custom_arg_types_count": 9,
+      "custom_return_types": [
+        "&'a str",
+        "Option<Box<RangeElement>>"
+      ],
+      "custom_return_types_count": 2,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 59.25925925925925,
+      "percentage_functions_custom_type": 40.74074074074074,
+      "percentage_functions_with_custom_return_type": 62.96296296296296,
+      "percentage_functions_with_mut": 25.925925925925924,
+      "percentage_functions_with_lifetime": 3.7037037037037033,
+      "percentage_functions_with_pointer_like_types": 18.51851851851852,
+      "custom_types": {
+        "structs": [
+          "RangeElement",
+          "CsvLine",
+          "CsvField"
+        ],
+        "structs_count": 3,
+        "enums": [
+          "RangeType"
+        ],
+        "enums_count": 1,
+        "type_aliases": [],
+        "type_aliases_count": 0,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "Holdem_Odds": {
+      "total_files": 6,
+      "interface_files": 0,
+      "total_functions": 35,
+      "total_args": 37,
+      "borrowed_arguments": 22,
+      "custom_arg_types": [
+        "Rank",
+        "&mut [Card; 5]",
+        "&[Card; 5]",
+        "&mut Card",
+        "&mut Vec<Card>",
+        "&Card",
+        "Suit",
+        "Card"
+      ],
+      "custom_arg_types_count": 8,
+      "custom_return_types": [
+        "Rank",
+        "Suit",
+        "Vec<Card>",
+        "Card",
+        "HandType"
+      ],
+      "custom_return_types_count": 5,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 62.857142857142854,
+      "percentage_functions_custom_type": 60.0,
+      "percentage_functions_with_custom_return_type": 40.0,
+      "percentage_functions_with_mut": 8.571428571428571,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [
+          "Card",
+          "Bucket"
+        ],
+        "structs_count": 2,
+        "enums": [
+          "Rank",
+          "Suit",
+          "HandType"
+        ],
+        "enums_count": 3,
+        "type_aliases": [],
+        "type_aliases_count": 0,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "razz_simulation": {
+      "total_files": 3,
+      "interface_files": 0,
+      "total_functions": 31,
+      "total_args": 32,
+      "borrowed_arguments": 10,
+      "custom_arg_types": [
+        "&mut T",
+        "CardIterator",
+        "RankListener<T>",
+        "CardSuitRank",
+        "&CardCollection",
+        "Option<Card>",
+        "&mut CardDeck",
+        "&Option<Card>",
+        "&DecidedCards",
+        "&mut CardHand",
+        "CardSorter",
+        "&Option<Box<CardCollection>>"
+      ],
+      "custom_arg_types_count": 12,
+      "custom_return_types": [
+        "Option<CardHand>",
+        "CardSuitRank",
+        "Option<Card>",
+        "CardRank",
+        "CardSuit",
+        "Option<CardDeck>"
+      ],
+      "custom_return_types_count": 6,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 32.25806451612903,
+      "percentage_functions_custom_type": 51.61290322580645,
+      "percentage_functions_with_custom_return_type": 54.83870967741935,
+      "percentage_functions_with_mut": 9.67741935483871,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 3.225806451612903,
+      "custom_types": {
+        "structs": [
+          "DecidedCards",
+          "CardDeck",
+          "CardHand",
+          "CardCollection",
+          "Card"
+        ],
+        "structs_count": 5,
+        "enums": [
+          "CardSuit",
+          "ItrAction",
+          "CardRank",
+          "CardSuitRank"
+        ],
+        "enums_count": 4,
+        "type_aliases": [
+          "CardSorter",
+          "CardIterator",
+          "RankListener"
+        ],
+        "type_aliases_count": 3,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "libpgn": {
+      "total_files": 14,
+      "interface_files": 0,
+      "total_functions": 50,
+      "total_args": 52,
+      "borrowed_arguments": 30,
+      "custom_arg_types": [
+        "PgnCommentPosition",
+        "PgnMovesItem",
+        "PgnComment",
+        "&mut std::fmt::Formatter<'_>",
+        "&mut Option<PgnComments>"
+      ],
+      "custom_arg_types_count": 5,
+      "custom_return_types": [
+        "std::fmt::Result",
+        "PgnMove",
+        "PgnScore",
+        "PgnMoves",
+        "PgnMetadata"
+      ],
+      "custom_return_types_count": 5,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 60.0,
+      "percentage_functions_custom_type": 16.0,
+      "percentage_functions_with_custom_return_type": 38.0,
+      "percentage_functions_with_mut": 32.0,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [
+          "PgnCoordinate",
+          "PgnAlternativeMoves",
+          "PgnComment",
+          "PgnMove",
+          "PgnMovesItem",
+          "PgnMoves",
+          "PgnMetadataItem",
+          "PgnBuffer",
+          "Pgn",
+          "PgnMetadata",
+          "PgnComments"
+        ],
+        "structs_count": 11,
+        "enums": [
+          "PgnCheck",
+          "PgnScore",
+          "PgnPiece",
+          "PgnCommentPosition",
+          "PgnAnnotation"
+        ],
+        "enums_count": 5,
+        "type_aliases": [],
+        "type_aliases_count": 0,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "libpsbt": {
+      "total_files": 6,
+      "interface_files": 0,
+      "total_functions": 31,
+      "total_args": 60,
+      "borrowed_arguments": 20,
+      "custom_arg_types": [
+        "PsbtInputType",
+        "PsbtScope",
+        "&mut Psbt",
+        "PsbtEncoding",
+        "PsbtGlobalType",
+        "&PsbtRecord",
+        "PsbtTxElemType",
+        "&mut fmt::Formatter<'_>",
+        "Option<PsbtElemHandler>",
+        "&Psbt",
+        "PsbtState",
+        "PsbtOutputType",
+        "&mut dyn std::io::Write",
+        "&mut dyn std::any::Any",
+        "Option<PsbtTxElemHandler>"
+      ],
+      "custom_arg_types_count": 15,
+      "custom_return_types": [
+        "(u64, PsbtResult)",
+        "atic str {\n ",
+        "Result {\n ",
+        "ic str {\n   ",
+        "fmt::Result",
+        "e {\n ",
+        "PsbtResult",
+        "sult {\n   "
+      ],
+      "custom_return_types_count": 8,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 64.51612903225806,
+      "percentage_functions_custom_type": 64.51612903225806,
+      "percentage_functions_with_custom_return_type": 77.41935483870968,
+      "percentage_functions_with_mut": 58.06451612903226,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [
+          "PsbtWitnessItem",
+          "PsbtTxIn",
+          "Psbt",
+          "PsbtTx",
+          "PsbtTxOut",
+          "PsbtRecord"
+        ],
+        "structs_count": 6,
+        "enums": [
+          "PsbtElem",
+          "PsbtTxElem",
+          "PsbtInputType",
+          "PsbtScope",
+          "PsbtEncoding",
+          "PsbtGlobalType",
+          "PsbtElemType",
+          "PsbtTxElemType",
+          "PsbtResult",
+          "PsbtOutputType",
+          "PsbtState"
+        ],
+        "enums_count": 11,
+        "type_aliases": [
+          "PsbtTxElemHandler",
+          "PsbtElemHandler"
+        ],
+        "type_aliases_count": 2,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "clhash": {
+      "total_files": 2,
+      "interface_files": 0,
+      "total_functions": 5,
+      "total_args": 7,
+      "borrowed_arguments": 1,
+      "custom_arg_types": [
+        "T"
+      ],
+      "custom_arg_types_count": 1,
+      "custom_return_types": [],
+      "custom_return_types_count": 0,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 20.0,
+      "percentage_functions_custom_type": 20.0,
+      "percentage_functions_with_custom_return_type": 20.0,
+      "percentage_functions_with_mut": 0.0,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [
+          "ClHasher"
+        ],
+        "structs_count": 1,
+        "enums": [],
+        "enums_count": 0,
+        "type_aliases": [],
+        "type_aliases_count": 0,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "utf8": {
+      "total_files": 2,
+      "interface_files": 0,
+      "total_functions": 13,
+      "total_args": 17,
+      "borrowed_arguments": 8,
+      "custom_arg_types": [
+        "Utf8Char",
+        "&mut Utf8CharIter",
+        "&mut OwnedUtf8String",
+        "&OwnedUtf8String",
+        "Utf8String"
+      ],
+      "custom_arg_types_count": 5,
+      "custom_return_types": [
+        "Utf8Char",
+        "Utf8CharValidity",
+        "Utf8CharIter",
+        "Utf8Validity",
+        "OwnedUtf8String",
+        "Utf8String"
+      ],
+      "custom_return_types_count": 6,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 61.53846153846154,
+      "percentage_functions_custom_type": 61.53846153846154,
+      "percentage_functions_with_custom_return_type": 76.92307692307693,
+      "percentage_functions_with_mut": 15.384615384615385,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [
+          "Utf8Char",
+          "Utf8CharValidity",
+          "Utf8CharIter",
+          "Utf8Validity",
+          "OwnedUtf8String",
+          "Utf8String"
+        ],
+        "structs_count": 6,
+        "enums": [],
+        "enums_count": 0,
+        "type_aliases": [],
+        "type_aliases_count": 0,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "chtrie": {
+      "total_files": 2,
+      "interface_files": 0,
+      "total_functions": 6,
+      "total_args": 14,
+      "borrowed_arguments": 2,
+      "custom_arg_types": [
+        "&mut Chtrie"
+      ],
+      "custom_arg_types_count": 1,
+      "custom_return_types": [],
+      "custom_return_types_count": 0,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 33.33333333333333,
+      "percentage_functions_custom_type": 33.33333333333333,
+      "percentage_functions_with_custom_return_type": 50.0,
+      "percentage_functions_with_mut": 33.33333333333333,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [
+          "Chtrie",
+          "ChtrieEdge"
+        ],
+        "structs_count": 2,
+        "enums": [],
+        "enums_count": 0,
+        "type_aliases": [],
+        "type_aliases_count": 0,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "rbtree_lab": {
+      "total_files": 2,
+      "interface_files": 0,
+      "total_functions": 15,
+      "total_args": 15,
+      "borrowed_arguments": 1,
+      "custom_arg_types": [
+        "Option<NodeRef>",
+        "NodeRef"
+      ],
+      "custom_arg_types_count": 2,
+      "custom_return_types": [
+        "Option<NodeRef>"
+      ],
+      "custom_return_types_count": 1,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 6.666666666666667,
+      "percentage_functions_custom_type": 53.333333333333336,
+      "percentage_functions_with_custom_return_type": 86.66666666666667,
+      "percentage_functions_with_mut": 6.666666666666667,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [
+          "RBTree",
+          "Node"
+        ],
+        "structs_count": 2,
+        "enums": [
+          "Color"
+        ],
+        "enums_count": 1,
+        "type_aliases": [
+          "NodeRef",
+          "Key"
+        ],
+        "type_aliases_count": 2,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "amp": {
+      "total_files": 2,
+      "interface_files": 0,
+      "total_functions": 3,
+      "total_args": 2,
+      "borrowed_arguments": 2,
+      "custom_arg_types": [
+        "&[&str]"
+      ],
+      "custom_arg_types_count": 1,
+      "custom_return_types": [],
+      "custom_return_types_count": 0,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 66.66666666666666,
+      "percentage_functions_custom_type": 33.33333333333333,
+      "percentage_functions_with_custom_return_type": 33.33333333333333,
+      "percentage_functions_with_mut": 0.0,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [
+          "Amp"
+        ],
+        "structs_count": 1,
+        "enums": [],
+        "enums_count": 0,
+        "type_aliases": [],
+        "type_aliases_count": 0,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "FastHamming": {
+      "total_files": 2,
+      "interface_files": 0,
+      "total_functions": 5,
+      "total_args": 7,
+      "borrowed_arguments": 4,
+      "custom_arg_types": [],
+      "custom_arg_types_count": 0,
+      "custom_return_types": [],
+      "custom_return_types_count": 0,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 80.0,
+      "percentage_functions_custom_type": 0.0,
+      "percentage_functions_with_custom_return_type": 20.0,
+      "percentage_functions_with_mut": 40.0,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [],
+        "structs_count": 0,
+        "enums": [],
+        "enums_count": 0,
+        "type_aliases": [],
+        "type_aliases_count": 0,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "mdb": {
+      "total_files": 2,
+      "interface_files": 0,
+      "total_functions": 27,
+      "total_args": 34,
+      "borrowed_arguments": 10,
+      "custom_arg_types": [
+        "&mut MdbPtr",
+        "MdbOptions",
+        "MdbPtr",
+        "MdbSize",
+        "P",
+        "io::Error"
+      ],
+      "custom_arg_types_count": 6,
+      "custom_return_types": [
+        "&MdbOptions",
+        "Result<MdbIndex>",
+        "Result<MdbStatus>",
+        "Result<MdbPtr>"
+      ],
+      "custom_return_types_count": 4,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 37.03703703703704,
+      "percentage_functions_custom_type": 55.55555555555556,
+      "percentage_functions_with_custom_return_type": 18.51851851851852,
+      "percentage_functions_with_mut": 18.51851851851852,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [
+          "MdbOptions",
+          "MdbStatus",
+          "MdbIndex",
+          "Mdb"
+        ],
+        "structs_count": 4,
+        "enums": [
+          "MdbStatusCode",
+          "MdbError"
+        ],
+        "enums_count": 2,
+        "type_aliases": [
+          "MdbPtr",
+          "MdbSize",
+          "Result"
+        ],
+        "type_aliases_count": 3,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "coroutine": {
+      "total_files": 2,
+      "interface_files": 0,
+      "total_functions": 7,
+      "total_args": 10,
+      "borrowed_arguments": 5,
+      "custom_arg_types": [
+        "Box<dyn Any>",
+        "CoroutineFunc",
+        "&mut Schedule",
+        "Box<Schedule>",
+        "&Schedule"
+      ],
+      "custom_arg_types_count": 5,
+      "custom_return_types": [
+        "Box<Schedule>"
+      ],
+      "custom_return_types_count": 1,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 71.42857142857143,
+      "percentage_functions_custom_type": 85.71428571428571,
+      "percentage_functions_with_custom_return_type": 57.14285714285714,
+      "percentage_functions_with_mut": 42.857142857142854,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 28.57142857142857,
+      "custom_types": {
+        "structs": [
+          "Schedule",
+          "Coroutine"
+        ],
+        "structs_count": 2,
+        "enums": [],
+        "enums_count": 0,
+        "type_aliases": [
+          "CoroutineFunc"
+        ],
+        "type_aliases_count": 1,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "CircularBuffer": {
+      "total_files": 2,
+      "interface_files": 0,
+      "total_functions": 11,
+      "total_args": 11,
+      "borrowed_arguments": 4,
+      "custom_arg_types": [],
+      "custom_arg_types_count": 0,
+      "custom_return_types": [],
+      "custom_return_types_count": 0,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 36.36363636363637,
+      "percentage_functions_custom_type": 0.0,
+      "percentage_functions_with_custom_return_type": 36.36363636363637,
+      "percentage_functions_with_mut": 27.27272727272727,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [
+          "CircularBuffer"
+        ],
+        "structs_count": 1,
+        "enums": [],
+        "enums_count": 0,
+        "type_aliases": [],
+        "type_aliases_count": 0,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "fft": {
+      "total_files": 2,
+      "interface_files": 0,
+      "total_functions": 15,
+      "total_args": 24,
+      "borrowed_arguments": 11,
+      "custom_arg_types": [
+        "&[FftComplex]",
+        "&FftComplex",
+        "&mut [FftComplex]"
+      ],
+      "custom_arg_types_count": 3,
+      "custom_return_types": [
+        "FftComplex"
+      ],
+      "custom_return_types_count": 1,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 73.33333333333333,
+      "percentage_functions_custom_type": 73.33333333333333,
+      "percentage_functions_with_custom_return_type": 86.66666666666667,
+      "percentage_functions_with_mut": 40.0,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [
+          "FftComplex"
+        ],
+        "structs_count": 1,
+        "enums": [],
+        "enums_count": 0,
+        "type_aliases": [],
+        "type_aliases_count": 0,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "proj_2DPartInt": {
+      "total_files": 8,
+      "interface_files": 0,
+      "total_functions": 26,
+      "total_args": 95,
+      "borrowed_arguments": 20,
+      "custom_arg_types": [
+        "&mut [data::Contact]",
+        "&Vec<&Vec<&data::Particle>>",
+        "&Vec<&mut Vec<&mut data::Particle>>",
+        "&data::Particle",
+        "&data::ParticleProperties",
+        "&mut [data::Vector]",
+        "&[data::Contact]",
+        "&mut std::fs::File",
+        "&data::Vector",
+        "&[data::Particle]",
+        "&[data::Vector]",
+        "&Vec<&mut Vec<&data::Particle>>",
+        "&mut [f64]",
+        "&[data::ParticleProperties]",
+        "&mut [data::Particle]"
+      ],
+      "custom_arg_types_count": 15,
+      "custom_return_types": [],
+      "custom_return_types_count": 0,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 76.92307692307693,
+      "percentage_functions_custom_type": 61.53846153846154,
+      "percentage_functions_with_custom_return_type": 57.692307692307686,
+      "percentage_functions_with_mut": 46.15384615384615,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [
+          "Config",
+          "ParticleProperties",
+          "Contact",
+          "Particle",
+          "Vector"
+        ],
+        "structs_count": 5,
+        "enums": [],
+        "enums_count": 0,
+        "type_aliases": [],
+        "type_aliases_count": 0,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "inversion_list": {
+      "total_files": 2,
+      "interface_files": 0,
+      "total_functions": 18,
+      "total_args": 13,
+      "borrowed_arguments": 11,
+      "custom_arg_types": [
+        "&[u32]",
+        "&mut fmt::Formatter<'_>"
+      ],
+      "custom_arg_types_count": 2,
+      "custom_return_types": [
+        "Result<Self, InversionListError>",
+        "fmt::Result"
+      ],
+      "custom_return_types_count": 2,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 61.111111111111114,
+      "percentage_functions_custom_type": 11.11111111111111,
+      "percentage_functions_with_custom_return_type": 11.11111111111111,
+      "percentage_functions_with_mut": 5.555555555555555,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [
+          "InversionListIterator",
+          "InversionList",
+          "InversionListCoupleIterator"
+        ],
+        "structs_count": 3,
+        "enums": [
+          "InversionListError"
+        ],
+        "enums_count": 1,
+        "type_aliases": [
+          "Item"
+        ],
+        "type_aliases_count": 1,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "hydra": {
+      "total_files": 2,
+      "interface_files": 0,
+      "total_functions": 14,
+      "total_args": 23,
+      "borrowed_arguments": 11,
+      "custom_arg_types": [
+        "&mut Command",
+        "&Command",
+        "Command"
+      ],
+      "custom_arg_types_count": 3,
+      "custom_return_types": [
+        "Option<&Command>"
+      ],
+      "custom_return_types_count": 1,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 78.57142857142857,
+      "percentage_functions_custom_type": 57.14285714285714,
+      "percentage_functions_with_custom_return_type": 50.0,
+      "percentage_functions_with_mut": 42.857142857142854,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [
+          "Command"
+        ],
+        "structs_count": 1,
+        "enums": [],
+        "enums_count": 0,
+        "type_aliases": [],
+        "type_aliases_count": 0,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "kd3": {
+      "total_files": 2,
+      "interface_files": 0,
+      "total_functions": 24,
+      "total_args": 46,
+      "borrowed_arguments": 14,
+      "custom_arg_types": [
+        "&Rc<RefCell<TreeNode>>",
+        "&KDTreeIterator",
+        "&mut Option<KDTreeIterator>",
+        "&space",
+        "&mut [f64]",
+        "&DataPoint",
+        "&mut [DataPoint]"
+      ],
+      "custom_arg_types_count": 7,
+      "custom_return_types": [
+        "std::cmp::Ordering",
+        "Option<Rc<RefCell<TreeNode>>>"
+      ],
+      "custom_return_types_count": 2,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 58.333333333333336,
+      "percentage_functions_custom_type": 54.166666666666664,
+      "percentage_functions_with_custom_return_type": 75.0,
+      "percentage_functions_with_mut": 12.5,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 16.666666666666664,
+      "custom_types": {
+        "structs": [
+          "space",
+          "TreeNode",
+          "Boundaries",
+          "KDTree",
+          "KDTreeIterator",
+          "DataPoint"
+        ],
+        "structs_count": 6,
+        "enums": [],
+        "enums_count": 0,
+        "type_aliases": [],
+        "type_aliases_count": 0,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "tisp": {
+      "total_files": 7,
+      "interface_files": 0,
+      "total_functions": 102,
+      "total_args": 231,
+      "borrowed_arguments": 87,
+      "custom_arg_types": [
+        "&Rec",
+        "&'a str",
+        "&Val",
+        "Prim",
+        "&'a Rec",
+        "fn(char) -> bool",
+        "&mut Rec",
+        "TspType",
+        "Option<Box<Rec>>",
+        "Rec",
+        "Vec<Val>",
+        "MkFn",
+        "&mut Tsp",
+        "&mut std::fs::File",
+        "Val",
+        "fn(&mut Tsp, &str) -> Val"
+      ],
+      "custom_arg_types_count": 16,
+      "custom_return_types": [
+        "Tsp",
+        "fn(f64, f64) -> Val",
+        "&'static str",
+        "Rec",
+        "Option<Val>",
+        "Val",
+        "Option<&'a Entry>"
+      ],
+      "custom_return_types_count": 7,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 85.29411764705883,
+      "percentage_functions_custom_type": 84.31372549019608,
+      "percentage_functions_with_custom_return_type": 88.23529411764706,
+      "percentage_functions_with_mut": 74.50980392156863,
+      "percentage_functions_with_lifetime": 0.9803921568627451,
+      "percentage_functions_with_pointer_like_types": 0.9803921568627451,
+      "custom_types": {
+        "structs": [
+          "Entry",
+          "Val",
+          "Tsp",
+          "Rec"
+        ],
+        "structs_count": 4,
+        "enums": [
+          "ValUnion",
+          "TspType"
+        ],
+        "enums_count": 2,
+        "type_aliases": [
+          "MkFn",
+          "Prim"
+        ],
+        "type_aliases_count": 2,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "ljmm": {
+      "total_files": 2,
+      "interface_files": 0,
+      "total_functions": 3,
+      "total_args": 4,
+      "borrowed_arguments": 1,
+      "custom_arg_types": [],
+      "custom_arg_types_count": 0,
+      "custom_return_types": [],
+      "custom_return_types_count": 0,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 33.33333333333333,
+      "percentage_functions_custom_type": 0.0,
+      "percentage_functions_with_custom_return_type": 66.66666666666666,
+      "percentage_functions_with_mut": 0.0,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [],
+        "structs_count": 0,
+        "enums": [],
+        "enums_count": 0,
+        "type_aliases": [],
+        "type_aliases_count": 0,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "cset": {
+      "total_files": 2,
+      "interface_files": 0,
+      "total_functions": 46,
+      "total_args": 47,
+      "borrowed_arguments": 17,
+      "custom_arg_types": [
+        "&mut  XXHU32",
+        "fn(&T, &T) -> bool",
+        "&mut XXHU32",
+        "XXH64HashT",
+        "T",
+        "&mut XXHU8",
+        "XXHU64",
+        "&T"
+      ],
+      "custom_arg_types_count": 8,
+      "custom_return_types": [
+        "Vec<T>",
+        "&mut Vec<CsetValue<T>>",
+        "Cset<T>",
+        "XXH64HashT",
+        "T",
+        "&Vec<CsetValue<T>>",
+        "XXHU32",
+        "XXHU64"
+      ],
+      "custom_return_types_count": 8,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 39.130434782608695,
+      "percentage_functions_custom_type": 45.65217391304348,
+      "percentage_functions_with_custom_return_type": 71.73913043478261,
+      "percentage_functions_with_mut": 26.08695652173913,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [
+          "CsetValue",
+          "Cset"
+        ],
+        "structs_count": 2,
+        "enums": [],
+        "enums_count": 0,
+        "type_aliases": [
+          "XXHU8",
+          "XXH64HashT",
+          "XXH32HashT",
+          "XXHU32",
+          "XXHU64"
+        ],
+        "type_aliases_count": 5,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "bhshell": {
+      "total_files": 6,
+      "interface_files": 0,
+      "total_functions": 18,
+      "total_args": 15,
+      "borrowed_arguments": 9,
+      "custom_arg_types": [
+        "&Str",
+        "Command",
+        "&mut Command",
+        "&ArgList",
+        "&[String]"
+      ],
+      "custom_arg_types_count": 5,
+      "custom_return_types": [
+        "Command"
+      ],
+      "custom_return_types_count": 1,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 50.0,
+      "percentage_functions_custom_type": 50.0,
+      "percentage_functions_with_custom_return_type": 38.88888888888889,
+      "percentage_functions_with_mut": 16.666666666666664,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [
+          "ArgList",
+          "Command",
+          "Str"
+        ],
+        "structs_count": 3,
+        "enums": [],
+        "enums_count": 0,
+        "type_aliases": [],
+        "type_aliases_count": 0,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "fs_c": {
+      "total_files": 2,
+      "interface_files": 0,
+      "total_functions": 25,
+      "total_args": 44,
+      "borrowed_arguments": 24,
+      "custom_arg_types": [
+        "&fd::OwnedFd",
+        "fd::OwnedFd"
+      ],
+      "custom_arg_types_count": 2,
+      "custom_return_types": [
+        "Option<fd::OwnedFd>",
+        "Result<fs::Metadata>"
+      ],
+      "custom_return_types_count": 2,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 96.0,
+      "percentage_functions_custom_type": 36.0,
+      "percentage_functions_with_custom_return_type": 20.0,
+      "percentage_functions_with_mut": 0.0,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [],
+        "structs_count": 0,
+        "enums": [],
+        "enums_count": 0,
+        "type_aliases": [],
+        "type_aliases_count": 0,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "Simple_Config": {
+      "total_files": 2,
+      "interface_files": 0,
+      "total_functions": 18,
+      "total_args": 49,
+      "borrowed_arguments": 17,
+      "custom_arg_types": [
+        "&'a str",
+        "CfgColor",
+        "&mut File",
+        "&CfgError",
+        "&Cfg",
+        "&mut std::fmt::Formatter<'_>"
+      ],
+      "custom_arg_types_count": 6,
+      "custom_return_types": [
+        "&'a str",
+        "CfgColor",
+        "Result<Cfg, CfgError>",
+        "std::fmt::Result"
+      ],
+      "custom_return_types_count": 4,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 94.44444444444444,
+      "percentage_functions_custom_type": 77.77777777777779,
+      "percentage_functions_with_custom_return_type": 38.88888888888889,
+      "percentage_functions_with_mut": 16.666666666666664,
+      "percentage_functions_with_lifetime": 5.555555555555555,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [
+          "CfgColor",
+          "Scanner",
+          "CfgError",
+          "CfgEntry",
+          "Cfg"
+        ],
+        "structs_count": 5,
+        "enums": [
+          "CfgVal"
+        ],
+        "enums_count": 1,
+        "type_aliases": [],
+        "type_aliases_count": 0,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "vec": {
+      "total_files": 2,
+      "interface_files": 0,
+      "total_functions": 8,
+      "total_args": 18,
+      "borrowed_arguments": 8,
+      "custom_arg_types": [
+        "T",
+        "&mut Vec<T>"
+      ],
+      "custom_arg_types_count": 2,
+      "custom_return_types": [],
+      "custom_return_types_count": 0,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 100.0,
+      "percentage_functions_custom_type": 100.0,
+      "percentage_functions_with_custom_return_type": 37.5,
+      "percentage_functions_with_mut": 100.0,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [],
+        "structs_count": 0,
+        "enums": [],
+        "enums_count": 0,
+        "type_aliases": [],
+        "type_aliases_count": 0,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "roaring_bitmap": {
+      "total_files": 2,
+      "interface_files": 0,
+      "total_functions": 14,
+      "total_args": 8,
+      "borrowed_arguments": 4,
+      "custom_arg_types": [
+        "&RSet",
+        "&mut RSet"
+      ],
+      "custom_arg_types_count": 2,
+      "custom_return_types": [],
+      "custom_return_types_count": 0,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 28.57142857142857,
+      "percentage_functions_custom_type": 21.428571428571427,
+      "percentage_functions_with_custom_return_type": 7.142857142857142,
+      "percentage_functions_with_mut": 14.285714285714285,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [
+          "RSet"
+        ],
+        "structs_count": 1,
+        "enums": [],
+        "enums_count": 0,
+        "type_aliases": [],
+        "type_aliases_count": 0,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "morton": {
+      "total_files": 2,
+      "interface_files": 0,
+      "total_functions": 2,
+      "total_args": 3,
+      "borrowed_arguments": 0,
+      "custom_arg_types": [],
+      "custom_arg_types_count": 0,
+      "custom_return_types": [],
+      "custom_return_types_count": 0,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 0.0,
+      "percentage_functions_custom_type": 0.0,
+      "percentage_functions_with_custom_return_type": 0.0,
+      "percentage_functions_with_mut": 0.0,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [
+          "Morton"
+        ],
+        "structs_count": 1,
+        "enums": [],
+        "enums_count": 0,
+        "type_aliases": [],
+        "type_aliases_count": 0,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "rubiksolver": {
+      "total_files": 5,
+      "interface_files": 0,
+      "total_functions": 28,
+      "total_args": 38,
+      "borrowed_arguments": 10,
+      "custom_arg_types": [
+        "Color",
+        "impl Fn(&T, &T) -> bool",
+        "impl Fn(&T, &T) -> bool + 'static",
+        "&ECube",
+        "Cube",
+        "impl Fn(&T) -> u32 + 'static",
+        "&mut Cube",
+        "Rotation",
+        "T",
+        "&Cube",
+        "&T"
+      ],
+      "custom_arg_types_count": 11,
+      "custom_return_types": [
+        "leme",
+        "()\n}\n",
+        "ent",
+        "Option<T>",
+        "// Ro",
+        "lf {",
+        "d!(",
+        "/ Pr",
+        "Option<&T>",
+        "\n/// ",
+        "et e",
+        "ted!(",
+        "ol {"
+      ],
+      "custom_return_types_count": 13,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 46.42857142857143,
+      "percentage_functions_custom_type": 78.57142857142857,
+      "percentage_functions_with_custom_return_type": 89.28571428571429,
+      "percentage_functions_with_mut": 3.571428571428571,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [
+          "Hash",
+          "Heap",
+          "ECube"
+        ],
+        "structs_count": 3,
+        "enums": [
+          "Color",
+          "Rotation"
+        ],
+        "enums_count": 2,
+        "type_aliases": [
+          "Cube"
+        ],
+        "type_aliases_count": 1,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "approxidate": {
+      "total_files": 2,
+      "interface_files": 0,
+      "total_functions": 27,
+      "total_args": 80,
+      "borrowed_arguments": 27,
+      "custom_arg_types": [
+        "&mut Atm",
+        "TimeT",
+        "&mut TimeVal",
+        "&Atm"
+      ],
+      "custom_arg_types_count": 4,
+      "custom_return_types": [],
+      "custom_return_types_count": 0,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 100.0,
+      "percentage_functions_custom_type": 88.88888888888889,
+      "percentage_functions_with_custom_return_type": 37.03703703703704,
+      "percentage_functions_with_mut": 88.88888888888889,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [
+          "TimeVal",
+          "TypeLen",
+          "Atm",
+          "Special",
+          "TimeZone"
+        ],
+        "structs_count": 5,
+        "enums": [],
+        "enums_count": 0,
+        "type_aliases": [
+          "TimeT"
+        ],
+        "type_aliases_count": 1,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "impcheck": {
+      "total_files": 16,
+      "interface_files": 0,
+      "total_functions": 100,
+      "total_args": 152,
+      "borrowed_arguments": 51,
+      "custom_arg_types": [
+        "&mut [i32]",
+        "Box<dyn std::any::Any>",
+        "&mut [T]",
+        "&mut [u64]",
+        "&mut File",
+        "&[u64]",
+        "&HashTableEntry<T>",
+        "&[i32]",
+        "File"
+      ],
+      "custom_arg_types_count": 9,
+      "custom_return_types": [
+        "Vec<T>",
+        "Option<&Box<dyn std::any::Any>>"
+      ],
+      "custom_return_types_count": 2,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 51.0,
+      "percentage_functions_custom_type": 33.0,
+      "percentage_functions_with_custom_return_type": 55.00000000000001,
+      "percentage_functions_with_mut": 28.999999999999996,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 1.0,
+      "custom_types": {
+        "structs": [
+          "IntVec",
+          "TrustedParser",
+          "SipHash",
+          "Writer",
+          "HashTableEntry",
+          "HashTable",
+          "TrustedChecker"
+        ],
+        "structs_count": 7,
+        "enums": [],
+        "enums_count": 0,
+        "type_aliases": [
+          "U8",
+          "Signature",
+          "U32",
+          "U64"
+        ],
+        "type_aliases_count": 4,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "libm17": {
+      "total_files": 8,
+      "interface_files": 0,
+      "total_functions": 44,
+      "total_args": 94,
+      "borrowed_arguments": 34,
+      "custom_arg_types": [
+        "&[f32]",
+        "&[i8]",
+        "PreambleType",
+        "&LSF",
+        "&[u16]",
+        "&mut [u16]",
+        "FrameType"
+      ],
+      "custom_arg_types_count": 7,
+      "custom_return_types": [],
+      "custom_return_types_count": 0,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 77.27272727272727,
+      "percentage_functions_custom_type": 31.818181818181817,
+      "percentage_functions_with_custom_return_type": 52.27272727272727,
+      "percentage_functions_with_mut": 52.27272727272727,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [
+          "LSF"
+        ],
+        "structs_count": 1,
+        "enums": [
+          "PreambleType",
+          "FrameType"
+        ],
+        "enums_count": 2,
+        "type_aliases": [],
+        "type_aliases_count": 0,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "clog": {
+      "total_files": 2,
+      "interface_files": 0,
+      "total_functions": 10,
+      "total_args": 27,
+      "borrowed_arguments": 7,
+      "custom_arg_types": [
+        "ClogLevel",
+        "std::fmt::Arguments",
+        "File"
+      ],
+      "custom_arg_types_count": 3,
+      "custom_return_types": [
+        "io::Result<()>"
+      ],
+      "custom_return_types_count": 1,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 70.0,
+      "percentage_functions_custom_type": 60.0,
+      "percentage_functions_with_custom_return_type": 70.0,
+      "percentage_functions_with_mut": 0.0,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [
+          "Clog"
+        ],
+        "structs_count": 1,
+        "enums": [
+          "ClogLevel"
+        ],
+        "enums_count": 1,
+        "type_aliases": [],
+        "type_aliases_count": 0,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "libutf": {
+      "total_files": 3,
+      "interface_files": 0,
+      "total_functions": 62,
+      "total_args": 85,
+      "borrowed_arguments": 45,
+      "custom_arg_types": [
+        "&[Latin1]",
+        "Utf8",
+        "&[Utf32]",
+        "&mut [Latin1]",
+        "&[Ascii]",
+        "&Utf8StringView",
+        "&[Utf16]",
+        "&[Utf8]",
+        "&mut [Utf8]",
+        "&mut [Utf32]",
+        "&mut [Utf16]",
+        "&Utf8String"
+      ],
+      "custom_arg_types_count": 12,
+      "custom_return_types": [
+        "Utf8StringView",
+        "Result<Utf8String, ()>"
+      ],
+      "custom_return_types_count": 2,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 72.58064516129032,
+      "percentage_functions_custom_type": 83.87096774193549,
+      "percentage_functions_with_custom_return_type": 14.516129032258066,
+      "percentage_functions_with_mut": 19.35483870967742,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [
+          "Utf8StringView",
+          "Utf8String"
+        ],
+        "structs_count": 2,
+        "enums": [],
+        "enums_count": 0,
+        "type_aliases": [
+          "Utf8",
+          "Latin1",
+          "Ascii",
+          "Utf16",
+          "Utf32"
+        ],
+        "type_aliases_count": 5,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "libfor": {
+      "total_files": 3,
+      "interface_files": 0,
+      "total_functions": 415,
+      "total_args": 1484,
+      "borrowed_arguments": 413,
+      "custom_arg_types": [
+        "AppendImpl",
+        "&[u32]",
+        "&mut [u32]"
+      ],
+      "custom_arg_types_count": 3,
+      "custom_return_types": [],
+      "custom_return_types_count": 0,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 99.51807228915662,
+      "percentage_functions_custom_type": 65.5421686746988,
+      "percentage_functions_with_custom_return_type": 0.0,
+      "percentage_functions_with_mut": 98.0722891566265,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [],
+        "structs_count": 0,
+        "enums": [],
+        "enums_count": 0,
+        "type_aliases": [
+          "AppendImpl"
+        ],
+        "type_aliases_count": 1,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "file2str": {
+      "total_files": 2,
+      "interface_files": 0,
+      "total_functions": 2,
+      "total_args": 3,
+      "borrowed_arguments": 2,
+      "custom_arg_types": [],
+      "custom_arg_types_count": 0,
+      "custom_return_types": [],
+      "custom_return_types_count": 0,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 100.0,
+      "percentage_functions_custom_type": 0.0,
+      "percentage_functions_with_custom_return_type": 0.0,
+      "percentage_functions_with_mut": 50.0,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [],
+        "structs_count": 0,
+        "enums": [],
+        "enums_count": 0,
+        "type_aliases": [],
+        "type_aliases_count": 0,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "jccc": {
+      "total_files": 10,
+      "interface_files": 0,
+      "total_functions": 56,
+      "total_args": 59,
+      "borrowed_arguments": 30,
+      "custom_arg_types": [
+        "&mut Option<Box<ListBlock>>",
+        "&'a Hashmap",
+        "&'a str",
+        "Box<dyn Any>",
+        "&mut BlockStatement",
+        "&mut Lexer",
+        "&Token",
+        "&mut Hashmap",
+        "&mut ConcreteFileTree",
+        "&mut Expression",
+        "fn(&mut Box<dyn Any>) -> i32",
+        "Op",
+        "TokenType",
+        "&mut Token",
+        "&mut FunctionDeclaration",
+        "&mut List"
+      ],
+      "custom_arg_types_count": 16,
+      "custom_return_types": [
+        "Hashmap",
+        "Box<ListBlock>",
+        "Option<&mut Box<dyn Any>>",
+        "List",
+        "Option<&'a BucketNode>",
+        "TokenType"
+      ],
+      "custom_return_types_count": 6,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 53.57142857142857,
+      "percentage_functions_custom_type": 42.857142857142854,
+      "percentage_functions_with_custom_return_type": 21.428571428571427,
+      "percentage_functions_with_mut": 37.5,
+      "percentage_functions_with_lifetime": 1.7857142857142856,
+      "percentage_functions_with_pointer_like_types": 8.928571428571429,
+      "custom_types": {
+        "structs": [
+          "ListBlock",
+          "Token",
+          "FunctionCall",
+          "Hashmap",
+          "GenState",
+          "Lexer",
+          "ConcreteFileTree",
+          "List",
+          "FunctionDeclaration",
+          "BlockStatement",
+          "TopLevelDeclaration",
+          "BucketNode",
+          "Expression"
+        ],
+        "structs_count": 13,
+        "enums": [
+          "NodeType",
+          "Op",
+          "TokenType"
+        ],
+        "enums_count": 3,
+        "type_aliases": [],
+        "type_aliases_count": 0,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "VaultSync": {
+      "total_files": 5,
+      "interface_files": 0,
+      "total_functions": 23,
+      "total_args": 31,
+      "borrowed_arguments": 17,
+      "custom_arg_types": [
+        "&Commit",
+        "&mut HashMap<String, RepoValue>",
+        "&Repository",
+        "&Author",
+        "&HashMap<String, RepoValue>",
+        "LOGGING_TAG"
+      ],
+      "custom_arg_types_count": 6,
+      "custom_return_types": [
+        "Repository",
+        "Author",
+        "Result<Commit, String>",
+        "Result<Repository, String>"
+      ],
+      "custom_return_types_count": 4,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 73.91304347826086,
+      "percentage_functions_custom_type": 52.17391304347826,
+      "percentage_functions_with_custom_return_type": 56.52173913043478,
+      "percentage_functions_with_mut": 21.73913043478261,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [
+          "Commit",
+          "Repository",
+          "Author",
+          "RepoValue"
+        ],
+        "structs_count": 4,
+        "enums": [
+          "LOGGING_TAG"
+        ],
+        "enums_count": 1,
+        "type_aliases": [],
+        "type_aliases_count": 0,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "hamta": {
+      "total_files": 2,
+      "interface_files": 0,
+      "total_functions": 20,
+      "total_args": 43,
+      "borrowed_arguments": 11,
+      "custom_arg_types": [
+        "&mut U",
+        "&mut T",
+        "HashFn<T>",
+        "&mut KeyValue<T, U>",
+        "DeallocateFn<U>",
+        "&mut KeyValue<'_, T, U>",
+        "DeallocateFn<T>",
+        "StrFn<T>",
+        "EqualsFn<T>",
+        "&mut KeyValue<'a, T, U>",
+        "StrFn<U>"
+      ],
+      "custom_arg_types_count": 11,
+      "custom_return_types": [
+        "Option<KeyValue<'a, T, U>>"
+      ],
+      "custom_return_types_count": 1,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 55.00000000000001,
+      "percentage_functions_custom_type": 80.0,
+      "percentage_functions_with_custom_return_type": 35.0,
+      "percentage_functions_with_mut": 55.00000000000001,
+      "percentage_functions_with_lifetime": 5.0,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [
+          "SubNode",
+          "Hamt",
+          "KeyValue"
+        ],
+        "structs_count": 3,
+        "enums": [
+          "HamtNode"
+        ],
+        "enums_count": 1,
+        "type_aliases": [
+          "StrFn",
+          "EqualsFn",
+          "HashFn",
+          "DeallocateFn"
+        ],
+        "type_aliases_count": 4,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "mvptree": {
+      "total_files": 2,
+      "interface_files": 0,
+      "total_functions": 13,
+      "total_args": 31,
+      "borrowed_arguments": 8,
+      "custom_arg_types": [
+        "&MVPDatapoint",
+        "Vec<MVPDatapoint>",
+        "MVPError",
+        "&mut dyn Write",
+        "&MVPTree",
+        "DistanceFunction",
+        "&mut Option<Box<Node>>"
+      ],
+      "custom_arg_types_count": 7,
+      "custom_return_types": [
+        "Result<MVPTree, MVPError>",
+        "Result<Vec<MVPDatapoint>, MVPError>",
+        "Vec<Vec<Vec<Arc<MVPDatapoint>>>>",
+        "MVPError",
+        "&'static str"
+      ],
+      "custom_return_types_count": 5,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 61.53846153846154,
+      "percentage_functions_custom_type": 76.92307692307693,
+      "percentage_functions_with_custom_return_type": 61.53846153846154,
+      "percentage_functions_with_mut": 23.076923076923077,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 7.6923076923076925,
+      "custom_types": {
+        "structs": [
+          "MVPDatapoint",
+          "InternalNode",
+          "MVPTree",
+          "LeafNode"
+        ],
+        "structs_count": 4,
+        "enums": [
+          "MVPDataType",
+          "MVPError",
+          "Node",
+          "NodeType"
+        ],
+        "enums_count": 4,
+        "type_aliases": [
+          "DistanceFunction"
+        ],
+        "type_aliases_count": 1,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "simple_lang": {
+      "total_files": 10,
+      "interface_files": 0,
+      "total_functions": 30,
+      "total_args": 40,
+      "borrowed_arguments": 20,
+      "custom_arg_types": [
+        "vm::OpCode",
+        "Token",
+        "&ast::ASTNode",
+        "token::Token",
+        "&[Box<ast::ASTNode>]",
+        "&mut Vec<vm::Instruction>",
+        "&mut Frame",
+        "&[Instruction]",
+        "&vm::Instruction",
+        "Box<ASTNode>",
+        "OpCode",
+        "token::TokenType",
+        "&[token::Token]",
+        "&mut Instruction",
+        "TokenType"
+      ],
+      "custom_arg_types_count": 15,
+      "custom_return_types": [
+        "Token",
+        "Vec<token::Token>",
+        "Vec<vm::Instruction>",
+        "Instruction",
+        "Box<ast::ASTNode>",
+        "Vec<Box<ast::ASTNode>>",
+        "token::Token",
+        "Frame",
+        "Box<ASTNode>"
+      ],
+      "custom_return_types_count": 9,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 66.66666666666666,
+      "percentage_functions_custom_type": 66.66666666666666,
+      "percentage_functions_with_custom_return_type": 90.0,
+      "percentage_functions_with_mut": 26.666666666666668,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 10.0,
+      "custom_types": {
+        "structs": [
+          "ASTNode",
+          "Token",
+          "Instruction",
+          "Frame"
+        ],
+        "structs_count": 4,
+        "enums": [
+          "OpCode",
+          "TokenType"
+        ],
+        "enums_count": 2,
+        "type_aliases": [],
+        "type_aliases_count": 0,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "libbase122": {
+      "total_files": 2,
+      "interface_files": 0,
+      "total_functions": 10,
+      "total_args": 17,
+      "borrowed_arguments": 6,
+      "custom_arg_types": [
+        "&mut BitWriter",
+        "&mut Base122Error"
+      ],
+      "custom_arg_types_count": 2,
+      "custom_return_types": [
+        "Result<(), Base122Error>",
+        "Result<usize, Base122Error>"
+      ],
+      "custom_return_types_count": 2,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 60.0,
+      "percentage_functions_custom_type": 20.0,
+      "percentage_functions_with_custom_return_type": 40.0,
+      "percentage_functions_with_mut": 30.0,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [
+          "Base122Error",
+          "BitReader",
+          "BitWriter"
+        ],
+        "structs_count": 3,
+        "enums": [],
+        "enums_count": 0,
+        "type_aliases": [],
+        "type_aliases_count": 0,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "merkle_tree_c": {
+      "total_files": 3,
+      "interface_files": 0,
+      "total_functions": 28,
+      "total_args": 74,
+      "borrowed_arguments": 28,
+      "custom_arg_types": [
+        "&mut CbmtNode",
+        "CbmtBuffer<'a>",
+        "&CbmtLeaves",
+        "&CbmtNode",
+        "&mut [T]",
+        "&Blake2bParam",
+        "&mut CbmtQueue<'a>",
+        "&mut CbmtIndices",
+        "fn(&T, &T) -> i32",
+        "CbmtNodeMergeFn<Ctx>",
+        "&mut CbmtTree",
+        "&mut CbmtLeaves",
+        "&mut CbmtBuffer<'a>",
+        "Vec<CbmtNode>",
+        "&mut CbmtProof",
+        "CbmtBuffer",
+        "&mut Ctx",
+        "&CbmtTree",
+        "fn(Option<&mut ()>, &CbmtNode, &CbmtNode) -> CbmtNode",
+        "&'a CbmtQueue<'a>",
+        "&CbmtIndices",
+        "&CbmtProof",
+        "&mut Blake2bState",
+        "&mut CbmtQueue",
+        "&CbmtNodePair"
+      ],
+      "custom_arg_types_count": 25,
+      "custom_return_types": [
+        "CbmtNode",
+        "Result<CbmtProof, i32>",
+        "Result<CbmtNode, i32>"
+      ],
+      "custom_return_types_count": 3,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 100.0,
+      "percentage_functions_custom_type": 85.71428571428571,
+      "percentage_functions_with_custom_return_type": 32.142857142857146,
+      "percentage_functions_with_mut": 78.57142857142857,
+      "percentage_functions_with_lifetime": 10.714285714285714,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [
+          "CbmtProof",
+          "CbmtQueue",
+          "CbmtBuffer",
+          "CbmtNode",
+          "CbmtIndices",
+          "Blake2bState",
+          "CbmtLeaves",
+          "CbmtTree",
+          "Blake2bParam",
+          "CbmtNodePair"
+        ],
+        "structs_count": 10,
+        "enums": [],
+        "enums_count": 0,
+        "type_aliases": [
+          "CbmtNodeMergeFn"
+        ],
+        "type_aliases_count": 1,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "ulidgen": {
+      "total_files": 3,
+      "interface_files": 0,
+      "total_functions": 2,
+      "total_args": 3,
+      "borrowed_arguments": 2,
+      "custom_arg_types": [
+        "&[&str]"
+      ],
+      "custom_arg_types_count": 1,
+      "custom_return_types": [],
+      "custom_return_types_count": 0,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 100.0,
+      "percentage_functions_custom_type": 50.0,
+      "percentage_functions_with_custom_return_type": 50.0,
+      "percentage_functions_with_mut": 50.0,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [],
+        "structs_count": 0,
+        "enums": [],
+        "enums_count": 0,
+        "type_aliases": [],
+        "type_aliases_count": 0,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "Linear_Algebra_C": {
+      "total_files": 5,
+      "interface_files": 0,
+      "total_functions": 168,
+      "total_args": 280,
+      "borrowed_arguments": 148,
+      "custom_arg_types": [
+        "&[f64]",
+        "&mut Matrix",
+        "&Matrix",
+        "&mut Vector",
+        "Vector",
+        "&Vector",
+        "Matrix"
+      ],
+      "custom_arg_types_count": 7,
+      "custom_return_types": [
+        "nimp",
+        ") {\n    unimp",
+        "    u",
+        " unimp",
+        "(Matrix, Matrix, Matrix, i32)",
+        "imp",
+        "\n    u",
+        "Vector",
+        "  u",
+        "rix, Matrix, i32) {\n    unimp",
+        "(Matrix, i32)",
+        "Matrix"
+      ],
+      "custom_return_types_count": 12,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 88.09523809523809,
+      "percentage_functions_custom_type": 90.47619047619048,
+      "percentage_functions_with_custom_return_type": 78.57142857142857,
+      "percentage_functions_with_mut": 9.523809523809524,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [
+          "Vector",
+          "Matrix"
+        ],
+        "structs_count": 2,
+        "enums": [],
+        "enums_count": 0,
+        "type_aliases": [],
+        "type_aliases_count": 0,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "satc": {
+      "total_files": 2,
+      "interface_files": 0,
+      "total_functions": 31,
+      "total_args": 67,
+      "borrowed_arguments": 25,
+      "custom_arg_types": [
+        "&[[f64; 2]]",
+        "&SatcCircle",
+        "&SatcPolygon",
+        "&SatcBox",
+        "&mut SatcResponse",
+        "&mut SatcPolygon"
+      ],
+      "custom_arg_types_count": 6,
+      "custom_return_types": [
+        "SatcBox",
+        "SatcPolygon",
+        "SatcResponse",
+        "SatcCircle"
+      ],
+      "custom_return_types_count": 4,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 80.64516129032258,
+      "percentage_functions_custom_type": 41.935483870967744,
+      "percentage_functions_with_custom_return_type": 29.03225806451613,
+      "percentage_functions_with_mut": 22.58064516129032,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [
+          "SatcCircle",
+          "SatcPolygon",
+          "SatcBox",
+          "SatcResponse"
+        ],
+        "structs_count": 4,
+        "enums": [],
+        "enums_count": 0,
+        "type_aliases": [],
+        "type_aliases_count": 0,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "csyncmers": {
+      "total_files": 3,
+      "interface_files": 0,
+      "total_functions": 5,
+      "total_args": 19,
+      "borrowed_arguments": 3,
+      "custom_arg_types": [
+        "&mut Vec<MinimizerResult>"
+      ],
+      "custom_arg_types_count": 1,
+      "custom_return_types": [],
+      "custom_return_types_count": 0,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 60.0,
+      "percentage_functions_custom_type": 60.0,
+      "percentage_functions_with_custom_return_type": 60.0,
+      "percentage_functions_with_mut": 60.0,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [
+          "MinimizerResult"
+        ],
+        "structs_count": 1,
+        "enums": [],
+        "enums_count": 0,
+        "type_aliases": [],
+        "type_aliases_count": 0,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "proj_42_Kocaeli_Printf": {
+      "total_files": 2,
+      "interface_files": 0,
+      "total_functions": 7,
+      "total_args": 16,
+      "borrowed_arguments": 7,
+      "custom_arg_types": [
+        "*const std::ffi::c_void",
+        "&[Box<dyn Any>]"
+      ],
+      "custom_arg_types_count": 2,
+      "custom_return_types": [],
+      "custom_return_types_count": 0,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 100.0,
+      "percentage_functions_custom_type": 28.57142857142857,
+      "percentage_functions_with_custom_return_type": 0.0,
+      "percentage_functions_with_mut": 100.0,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 14.285714285714285,
+      "custom_types": {
+        "structs": [],
+        "structs_count": 0,
+        "enums": [],
+        "enums_count": 0,
+        "type_aliases": [],
+        "type_aliases_count": 0,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "carrays": {
+      "total_files": 3,
+      "interface_files": 0,
+      "total_functions": 25,
+      "total_args": 41,
+      "borrowed_arguments": 10,
+      "custom_arg_types": [
+        "F",
+        "&[T]",
+        "&'a mut usize"
+      ],
+      "custom_arg_types_count": 3,
+      "custom_return_types": [
+        "Option<&T>"
+      ],
+      "custom_return_types_count": 1,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 40.0,
+      "percentage_functions_custom_type": 20.0,
+      "percentage_functions_with_custom_return_type": 44.0,
+      "percentage_functions_with_mut": 24.0,
+      "percentage_functions_with_lifetime": 4.0,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [
+          "CircBuf"
+        ],
+        "structs_count": 1,
+        "enums": [],
+        "enums_count": 0,
+        "type_aliases": [],
+        "type_aliases_count": 0,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "Math_Library_in_C": {
+      "total_files": 2,
+      "interface_files": 0,
+      "total_functions": 17,
+      "total_args": 19,
+      "borrowed_arguments": 0,
+      "custom_arg_types": [],
+      "custom_arg_types_count": 0,
+      "custom_return_types": [],
+      "custom_return_types_count": 0,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 0.0,
+      "percentage_functions_custom_type": 0.0,
+      "percentage_functions_with_custom_return_type": 0.0,
+      "percentage_functions_with_mut": 0.0,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [],
+        "structs_count": 0,
+        "enums": [],
+        "enums_count": 0,
+        "type_aliases": [],
+        "type_aliases_count": 0,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "bitset": {
+      "total_files": 2,
+      "interface_files": 0,
+      "total_functions": 14,
+      "total_args": 6,
+      "borrowed_arguments": 2,
+      "custom_arg_types": [],
+      "custom_arg_types_count": 0,
+      "custom_return_types": [
+        "io::Result<Self>",
+        "io::Result<()>"
+      ],
+      "custom_return_types_count": 2,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 14.285714285714285,
+      "percentage_functions_custom_type": 0.0,
+      "percentage_functions_with_custom_return_type": 42.857142857142854,
+      "percentage_functions_with_mut": 0.0,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [
+          "Bitset"
+        ],
+        "structs_count": 1,
+        "enums": [],
+        "enums_count": 0,
+        "type_aliases": [],
+        "type_aliases_count": 0,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "SimpleXML": {
+      "total_files": 3,
+      "interface_files": 0,
+      "total_functions": 21,
+      "total_args": 18,
+      "borrowed_arguments": 5,
+      "custom_arg_types": [
+        "&XMLTokenType",
+        "XMLElement",
+        "T",
+        "ParseState",
+        "&T"
+      ],
+      "custom_arg_types_count": 5,
+      "custom_return_types": [
+        "Option<T>",
+        "ent, String> {\n        uni",
+        "n> {\n        uni",
+        "       uni",
+        " uni",
+        "Option<&T>",
+        "ent, String> {\n    unimple",
+        "     uni"
+      ],
+      "custom_return_types_count": 8,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 23.809523809523807,
+      "percentage_functions_custom_type": 33.33333333333333,
+      "percentage_functions_with_custom_return_type": 80.95238095238095,
+      "percentage_functions_with_mut": 0.0,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [
+          "XMLToken",
+          "StackElement",
+          "XMLElement",
+          "Vector",
+          "XMLParser"
+        ],
+        "structs_count": 5,
+        "enums": [
+          "XMLTokenType",
+          "ParseState"
+        ],
+        "enums_count": 2,
+        "type_aliases": [],
+        "type_aliases_count": 0,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "worsp": {
+      "total_files": 2,
+      "interface_files": 0,
+      "total_functions": 10,
+      "total_args": 19,
+      "borrowed_arguments": 9,
+      "custom_arg_types": [
+        "&mut AllocatorContext",
+        "&mut Env",
+        "&mut ParseResult",
+        "TokenKind",
+        "&ExpressionNode",
+        "&Object",
+        "&mut ParseState",
+        "&mut Object"
+      ],
+      "custom_arg_types_count": 8,
+      "custom_return_types": [
+        "AllocatorContext",
+        "Option<Box<Object>>"
+      ],
+      "custom_return_types_count": 2,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 90.0,
+      "percentage_functions_custom_type": 90.0,
+      "percentage_functions_with_custom_return_type": 80.0,
+      "percentage_functions_with_mut": 80.0,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [
+          "Binding",
+          "Token",
+          "SymbolicExpNode",
+          "ProgramNode",
+          "ObjectStack",
+          "SymbolNode",
+          "ExpressionList",
+          "Function",
+          "ExpressionNode",
+          "AllocatorContext",
+          "Env",
+          "ParseState",
+          "Object",
+          "ListNode",
+          "ConsCell",
+          "ParseResult",
+          "LiteralNode"
+        ],
+        "structs_count": 17,
+        "enums": [
+          "LiteralType",
+          "ExpressionType",
+          "ObjectValue",
+          "ExpressionData",
+          "TokenKind",
+          "LiteralValue",
+          "ObjectType",
+          "ConsCellType"
+        ],
+        "enums_count": 8,
+        "type_aliases": [],
+        "type_aliases_count": 0,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "skp": {
+      "total_files": 2,
+      "interface_files": 0,
+      "total_functions": 69,
+      "total_args": 134,
+      "borrowed_arguments": 52,
+      "custom_arg_types": [
+        "&mut AstMmz",
+        "&'a str",
+        "AstNodeT",
+        "&Ast",
+        "&mut dyn std::io::Write",
+        "std::fmt::Arguments",
+        "SkpRule",
+        "&mut Ast",
+        "Ast"
+      ],
+      "custom_arg_types_count": 9,
+      "custom_return_types": [
+        "nted",
+        "  u",
+        "&str) {\n   ",
+        " {\n    unimp",
+        "nimp",
+        "   ",
+        "{\n ",
+        "&'a str, &'a str) {\n   ",
+        "lemented",
+        "   u",
+        "ted",
+        "!()\n",
+        "imp",
+        "d!(",
+        "   unimp",
+        "nimpleme",
+        "xtdf(ast",
+        "()\n",
+        "{\n    unimp",
+        "a str, &'a str) {\n    u"
+      ],
+      "custom_return_types_count": 20,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 75.36231884057972,
+      "percentage_functions_custom_type": 68.11594202898551,
+      "percentage_functions_with_custom_return_type": 100.0,
+      "percentage_functions_with_mut": 28.985507246376812,
+      "percentage_functions_with_lifetime": 2.898550724637681,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [
+          "AstNode",
+          "Ast",
+          "SkpLoop",
+          "AstMmz"
+        ],
+        "structs_count": 4,
+        "enums": [],
+        "enums_count": 0,
+        "type_aliases": [
+          "AstNodeT",
+          "SkpRule"
+        ],
+        "type_aliases_count": 2,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "libqueue": {
+      "total_files": 2,
+      "interface_files": 0,
+      "total_functions": 7,
+      "total_args": 1,
+      "borrowed_arguments": 0,
+      "custom_arg_types": [
+        "T"
+      ],
+      "custom_arg_types_count": 1,
+      "custom_return_types": [
+        "Option<T>",
+        "Option<&T>"
+      ],
+      "custom_return_types_count": 2,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 0.0,
+      "percentage_functions_custom_type": 14.285714285714285,
+      "percentage_functions_with_custom_return_type": 71.42857142857143,
+      "percentage_functions_with_mut": 0.0,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [
+          "QueueNode",
+          "Queue"
+        ],
+        "structs_count": 2,
+        "enums": [],
+        "enums_count": 0,
+        "type_aliases": [],
+        "type_aliases_count": 0,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "blt": {
+      "total_files": 4,
+      "interface_files": 0,
+      "total_functions": 45,
+      "total_args": 35,
+      "borrowed_arguments": 23,
+      "custom_arg_types": [
+        "&CbtLeaf",
+        "Box<dyn Any>",
+        "&BltIt",
+        "F",
+        "&mut CbtLeaf"
+      ],
+      "custom_arg_types_count": 5,
+      "custom_return_types": [
+        " {\n ",
+        "  unimp",
+        "nimp",
+        "on<BltIt> {\n ",
+        "unimp",
+        "   u",
+        "{\n        unimp",
+        "imp",
+        "(BltIt, bool)",
+        "e {\n ",
+        " uni",
+        "BltIt",
+        "Option<BltIt>",
+        "{\n ",
+        "tion<BltIt> {",
+        "ny>> {\n        unimp",
+        "    "
+      ],
+      "custom_return_types_count": 17,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 51.11111111111111,
+      "percentage_functions_custom_type": 35.55555555555556,
+      "percentage_functions_with_custom_return_type": 91.11111111111111,
+      "percentage_functions_with_mut": 2.2222222222222223,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 8.88888888888889,
+      "custom_types": {
+        "structs": [
+          "CbtLeaf",
+          "Cbt",
+          "InternalNode",
+          "BltIt",
+          "Blt",
+          "CbtNode"
+        ],
+        "structs_count": 6,
+        "enums": [
+          "BltNode"
+        ],
+        "enums_count": 1,
+        "type_aliases": [
+          "DupFn",
+          "GetLenFn",
+          "CbtLeafPtr",
+          "CmpFn",
+          "GetCritFn"
+        ],
+        "type_aliases_count": 5,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "recordManager": {
+      "total_files": 10,
+      "interface_files": 0,
+      "total_functions": 87,
+      "total_args": 156,
+      "borrowed_arguments": 80,
+      "custom_arg_types": [
+        "&Record",
+        "Vec<DataType>",
+        "ReplacementStrategy",
+        "&BM_PageHandle",
+        "&BM_BufferPool",
+        "&mut Expr",
+        "&Value",
+        "&RM_TableData",
+        "&mut RM_TableData",
+        "&mut SM_FileHandle",
+        "&mut Value",
+        "&Schema",
+        "&Expr",
+        "&mut Record",
+        "Option<Box<dyn std::any::Any>>",
+        "RC",
+        "&mut RM_ScanHandle",
+        "&SM_FileHandle",
+        "&mut SM_PageHandle",
+        "&SM_PageHandle",
+        "PageNumber",
+        "&mut BM_PageHandle",
+        "&mut Option<Record>",
+        "&mut BM_BufferPool",
+        "&RID",
+        "&mut fmt::Formatter",
+        "&mut Schema"
+      ],
+      "custom_arg_types_count": 27,
+      "custom_return_types": [
+        "Vec<PageNumber>",
+        "Schema",
+        "fmt::Result",
+        "RC",
+        "Value"
+      ],
+      "custom_return_types_count": 5,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 91.95402298850574,
+      "percentage_functions_custom_type": 89.65517241379311,
+      "percentage_functions_with_custom_return_type": 71.26436781609196,
+      "percentage_functions_with_mut": 51.724137931034484,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 2.2988505747126435,
+      "custom_types": {
+        "structs": [
+          "Expr",
+          "SM_FileHandle",
+          "BM_PageHandle",
+          "BM_BufferPool",
+          "RM_ScanHandle",
+          "TableManager",
+          "PageHeader",
+          "RID",
+          "Schema",
+          "RM_TableData",
+          "Bufferpool",
+          "VarString",
+          "Record",
+          "Operator",
+          "Value",
+          "ScanManager"
+        ],
+        "structs_count": 16,
+        "enums": [
+          "OpType",
+          "ExprType",
+          "ReplacementStrategy",
+          "ValueUnion",
+          "RC",
+          "DataType",
+          "ExprUnion"
+        ],
+        "enums_count": 7,
+        "type_aliases": [
+          "SM_PageHandle",
+          "Bool",
+          "PageNumber"
+        ],
+        "type_aliases_count": 3,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "lib2bit": {
+      "total_files": 2,
+      "interface_files": 0,
+      "total_functions": 22,
+      "total_args": 40,
+      "borrowed_arguments": 8,
+      "custom_arg_types": [
+        "&mut [char]"
+      ],
+      "custom_arg_types_count": 1,
+      "custom_return_types": [],
+      "custom_return_types_count": 0,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 36.36363636363637,
+      "percentage_functions_custom_type": 13.636363636363635,
+      "percentage_functions_with_custom_return_type": 59.09090909090909,
+      "percentage_functions_with_mut": 13.636363636363635,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [
+          "TwoBitMaskedIdx",
+          "TwoBitCL",
+          "TwoBitHeader",
+          "TwoBit"
+        ],
+        "structs_count": 4,
+        "enums": [],
+        "enums_count": 0,
+        "type_aliases": [],
+        "type_aliases_count": 0,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "c_string": {
+      "total_files": 2,
+      "interface_files": 0,
+      "total_functions": 17,
+      "total_args": 29,
+      "borrowed_arguments": 14,
+      "custom_arg_types": [
+        "&StringT",
+        "&StringTArray",
+        "StringT"
+      ],
+      "custom_arg_types_count": 3,
+      "custom_return_types": [
+        "BoolT",
+        "StringTArray",
+        "StringT"
+      ],
+      "custom_return_types_count": 3,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 82.35294117647058,
+      "percentage_functions_custom_type": 82.35294117647058,
+      "percentage_functions_with_custom_return_type": 82.35294117647058,
+      "percentage_functions_with_mut": 11.76470588235294,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [
+          "StringT"
+        ],
+        "structs_count": 1,
+        "enums": [],
+        "enums_count": 0,
+        "type_aliases": [
+          "BoolT",
+          "StringTArray"
+        ],
+        "type_aliases_count": 2,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "Bostree": {
+      "total_files": 2,
+      "interface_files": 0,
+      "total_functions": 13,
+      "total_args": 13,
+      "borrowed_arguments": 8,
+      "custom_arg_types": [
+        "Option<BOSTreeFreeFunction>",
+        "&BOSTree",
+        "BOSTreeCmpFunction",
+        "&Rc<RefCell<BOSNode>>"
+      ],
+      "custom_arg_types_count": 4,
+      "custom_return_types": [
+        "Option<Rc<RefCell<BOSNode>>>",
+        "Rc<RefCell<BOSNode>>"
+      ],
+      "custom_return_types_count": 2,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 61.53846153846154,
+      "percentage_functions_custom_type": 61.53846153846154,
+      "percentage_functions_with_custom_return_type": 76.92307692307693,
+      "percentage_functions_with_mut": 0.0,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 46.15384615384615,
+      "custom_types": {
+        "structs": [
+          "BOSNode",
+          "BOSTree"
+        ],
+        "structs_count": 2,
+        "enums": [],
+        "enums_count": 0,
+        "type_aliases": [
+          "BOSTreeFreeFunction",
+          "BOSTreeCmpFunction"
+        ],
+        "type_aliases_count": 2,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "geofence": {
+      "total_files": 2,
+      "interface_files": 0,
+      "total_functions": 5,
+      "total_args": 7,
+      "borrowed_arguments": 2,
+      "custom_arg_types": [
+        "&[Point]",
+        "&Point"
+      ],
+      "custom_arg_types_count": 2,
+      "custom_return_types": [],
+      "custom_return_types_count": 0,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 40.0,
+      "percentage_functions_custom_type": 40.0,
+      "percentage_functions_with_custom_return_type": 0.0,
+      "percentage_functions_with_mut": 0.0,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [
+          "Point"
+        ],
+        "structs_count": 1,
+        "enums": [],
+        "enums_count": 0,
+        "type_aliases": [],
+        "type_aliases_count": 0,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "c_aces": {
+      "total_files": 8,
+      "interface_files": 0,
+      "total_functions": 49,
+      "total_args": 116,
+      "borrowed_arguments": 25,
+      "custom_arg_types": [
+        "&mut Matrix2D",
+        "&Matrix2D",
+        "&mut Polynomial",
+        "&mut [u64]",
+        "&Aces",
+        "&Parameters",
+        "&[u64]",
+        "&mut Aces",
+        "&Polynomial",
+        "Vec<Coeff>",
+        "&mut PolyArray",
+        "&CipherMessage",
+        "&SharedInfo",
+        "&Channel",
+        "&PolyArray",
+        "&mut Matrix3D",
+        "&mut CipherMessage"
+      ],
+      "custom_arg_types_count": 17,
+      "custom_return_types": [
+        "Xgcd",
+        "Coeff",
+        "Result<Matrix2D>",
+        "Result<Polynomial>",
+        "Option<&mut [u64]>",
+        ")> {\n    u",
+        "Option<&mut Matrix2D>",
+        "lt<()> {\n ",
+        "\n    unimp",
+        "Option<&[u64]>",
+        "Pair"
+      ],
+      "custom_return_types_count": 11,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 51.02040816326531,
+      "percentage_functions_custom_type": 53.06122448979592,
+      "percentage_functions_with_custom_return_type": 42.857142857142854,
+      "percentage_functions_with_mut": 38.775510204081634,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [
+          "PublicKey",
+          "Xgcd",
+          "Polynomial",
+          "Matrix2D",
+          "Aces",
+          "CipherMessage",
+          "SharedInfo",
+          "Parameters",
+          "PrivateKey",
+          "PolyArray",
+          "Matrix3D",
+          "Pair",
+          "Channel"
+        ],
+        "structs_count": 13,
+        "enums": [
+          "AcesError"
+        ],
+        "enums_count": 1,
+        "type_aliases": [
+          "Result",
+          "Coeff"
+        ],
+        "type_aliases_count": 2,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "fslib": {
+      "total_files": 17,
+      "interface_files": 1,
+      "total_functions": 139,
+      "total_args": 229,
+      "borrowed_arguments": 78,
+      "custom_arg_types": [
+        "&W",
+        "&StatePair",
+        "&mut SymTable",
+        "&mut dyn BufRead",
+        "F",
+        "&Fst<W>",
+        "&BitSet",
+        "K",
+        "&Spair",
+        "&Sr",
+        "fn(&T, &T) -> bool",
+        "&K",
+        "W",
+        "&Fst",
+        "&mut Queue<(ArcData, ArcData)>",
+        "HeapCmp<T>",
+        "Weight",
+        "fn(&T) -> u64",
+        "&'a Fst",
+        "V",
+        "&mut dyn Write",
+        "Arc<W>",
+        "&mut H",
+        "Label",
+        "State",
+        "Option<&SymTable>",
+        "&mut File",
+        "&SymTable",
+        "&ArcData",
+        "&mut fst::Fst",
+        "T",
+        "&T",
+        "&[ArcData]",
+        "&mut Fst",
+        "&[Arc<W>]",
+        "&StateData"
+      ],
+      "custom_arg_types_count": 36,
+      "custom_return_types": [
+        "io::Result<()>",
+        "Option<T>",
+        "Option<&V>",
+        "State",
+        "Ordering",
+        "fst::Fst",
+        "ArcPair<W>> {\n ",
+        "Weight",
+        "std::cmp::Ordering",
+        "Sr",
+        "W> {\n ",
+        "io::Result<i32>"
+      ],
+      "custom_return_types_count": 12,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 56.83453237410072,
+      "percentage_functions_custom_type": 58.27338129496403,
+      "percentage_functions_with_custom_return_type": 66.18705035971223,
+      "percentage_functions_with_mut": 28.776978417266186,
+      "percentage_functions_with_lifetime": 0.7194244604316548,
+      "percentage_functions_with_pointer_like_types": 3.597122302158273,
+      "custom_types": {
+        "structs": [
+          "HashItem",
+          "StateData",
+          "ShortestPath",
+          "StatePair",
+          "Arc",
+          "FstIter",
+          "Apair",
+          "SymTable",
+          "Sr",
+          "Bucket",
+          "Queue",
+          "FloatSemiring",
+          "HashTable",
+          "BitSet",
+          "Fst",
+          "State",
+          "Spair",
+          "ArcData",
+          "MatchItem",
+          "Heap",
+          "Striple",
+          "ArcPair"
+        ],
+        "structs_count": 22,
+        "enums": [],
+        "enums_count": 0,
+        "type_aliases": [
+          "SrSum",
+          "Label",
+          "Token",
+          "State",
+          "Weight",
+          "HeapCmp",
+          "word_t",
+          "SrProd",
+          "Arc"
+        ],
+        "type_aliases_count": 9,
+        "traits": [
+          "Semiring"
+        ],
+        "traits_count": 1
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "fleur": {
+      "total_files": 4,
+      "interface_files": 0,
+      "total_functions": 11,
+      "total_args": 13,
+      "borrowed_arguments": 8,
+      "custom_arg_types": [
+        "File",
+        "&mut fmt::Formatter<'_>",
+        "&BloomFilter"
+      ],
+      "custom_arg_types_count": 3,
+      "custom_return_types": [
+        "fmt::Result",
+        "BloomFilter"
+      ],
+      "custom_return_types_count": 2,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 72.72727272727273,
+      "percentage_functions_custom_type": 27.27272727272727,
+      "percentage_functions_with_custom_return_type": 27.27272727272727,
+      "percentage_functions_with_mut": 9.090909090909092,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [
+          "BloomFilter",
+          "Header"
+        ],
+        "structs_count": 2,
+        "enums": [],
+        "enums_count": 0,
+        "type_aliases": [],
+        "type_aliases_count": 0,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "gfc": {
+      "total_files": 2,
+      "interface_files": 0,
+      "total_functions": 11,
+      "total_args": 21,
+      "borrowed_arguments": 3,
+      "custom_arg_types": [
+        "&[u32]",
+        "&mut [u32]"
+      ],
+      "custom_arg_types_count": 2,
+      "custom_return_types": [],
+      "custom_return_types_count": 0,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 27.27272727272727,
+      "percentage_functions_custom_type": 18.181818181818183,
+      "percentage_functions_with_custom_return_type": 27.27272727272727,
+      "percentage_functions_with_mut": 27.27272727272727,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [
+          "GFC"
+        ],
+        "structs_count": 1,
+        "enums": [],
+        "enums_count": 0,
+        "type_aliases": [],
+        "type_aliases_count": 0,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "avalanche": {
+      "total_files": 2,
+      "interface_files": 0,
+      "total_functions": 5,
+      "total_args": 13,
+      "borrowed_arguments": 2,
+      "custom_arg_types": [
+        "&mut dyn Write",
+        "&mut Matrix",
+        "&mut dyn Read",
+        "HashFn"
+      ],
+      "custom_arg_types_count": 4,
+      "custom_return_types": [],
+      "custom_return_types_count": 0,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 40.0,
+      "percentage_functions_custom_type": 40.0,
+      "percentage_functions_with_custom_return_type": 60.0,
+      "percentage_functions_with_mut": 40.0,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [
+          "Matrix"
+        ],
+        "structs_count": 1,
+        "enums": [],
+        "enums_count": 0,
+        "type_aliases": [
+          "HashFn"
+        ],
+        "type_aliases_count": 1,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "matrix_multiplication": {
+      "total_files": 3,
+      "interface_files": 0,
+      "total_functions": 8,
+      "total_args": 21,
+      "borrowed_arguments": 7,
+      "custom_arg_types": [
+        "&[Vec<f32>]",
+        "&mut [Vec<f32>]"
+      ],
+      "custom_arg_types_count": 2,
+      "custom_return_types": [],
+      "custom_return_types_count": 0,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 87.5,
+      "percentage_functions_custom_type": 75.0,
+      "percentage_functions_with_custom_return_type": 37.5,
+      "percentage_functions_with_mut": 62.5,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [],
+        "structs_count": 0,
+        "enums": [],
+        "enums_count": 0,
+        "type_aliases": [],
+        "type_aliases_count": 0,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "cfsm": {
+      "total_files": 2,
+      "interface_files": 0,
+      "total_functions": 5,
+      "total_args": 3,
+      "borrowed_arguments": 0,
+      "custom_arg_types": [
+        "Option<Box<T>>",
+        "Option<fn(fsm: Option<Box<&mut CfsmCtx<T>>>)>"
+      ],
+      "custom_arg_types_count": 2,
+      "custom_return_types": [],
+      "custom_return_types_count": 0,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 20.0,
+      "percentage_functions_custom_type": 40.0,
+      "percentage_functions_with_custom_return_type": 80.0,
+      "percentage_functions_with_mut": 20.0,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 40.0,
+      "custom_types": {
+        "structs": [
+          "CfsmCtx"
+        ],
+        "structs_count": 1,
+        "enums": [],
+        "enums_count": 0,
+        "type_aliases": [],
+        "type_aliases_count": 0,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "libvcd": {
+      "total_files": 2,
+      "interface_files": 0,
+      "total_functions": 8,
+      "total_args": 12,
+      "borrowed_arguments": 6,
+      "custom_arg_types": [
+        "&Timestamp",
+        "&mut VCD",
+        "&mut State",
+        "Timestamp",
+        "&File"
+      ],
+      "custom_arg_types_count": 5,
+      "custom_return_types": [
+        "Result<(), std::io::Error>",
+        "Option<&Signal>",
+        "Result<Timestamp, std::io::Error>",
+        "Result<Self, std::io::Error>"
+      ],
+      "custom_return_types_count": 4,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 75.0,
+      "percentage_functions_custom_type": 50.0,
+      "percentage_functions_with_custom_return_type": 62.5,
+      "percentage_functions_with_mut": 25.0,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [
+          "ValueChange",
+          "Signal",
+          "VCD",
+          "Timescale"
+        ],
+        "structs_count": 4,
+        "enums": [
+          "State"
+        ],
+        "enums_count": 1,
+        "type_aliases": [
+          "Timestamp"
+        ],
+        "type_aliases_count": 1,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "libwecan": {
+      "total_files": 2,
+      "interface_files": 0,
+      "total_functions": 10,
+      "total_args": 62,
+      "borrowed_arguments": 10,
+      "custom_arg_types": [],
+      "custom_arg_types_count": 0,
+      "custom_return_types": [
+        " De",
+        "eco",
+        "ode",
+        "imp"
+      ],
+      "custom_return_types_count": 4,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 100.0,
+      "percentage_functions_custom_type": 0.0,
+      "percentage_functions_with_custom_return_type": 100.0,
+      "percentage_functions_with_mut": 50.0,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [],
+        "structs_count": 0,
+        "enums": [],
+        "enums_count": 0,
+        "type_aliases": [],
+        "type_aliases_count": 0,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "Graph_recogniser": {
+      "total_files": 7,
+      "interface_files": 0,
+      "total_functions": 24,
+      "total_args": 30,
+      "borrowed_arguments": 9,
+      "custom_arg_types": [
+        "Hash",
+        "&mut CuckooEntry",
+        "&mut &'static str",
+        "fmt::Arguments",
+        "Key",
+        "&'static str",
+        "LogType"
+      ],
+      "custom_arg_types_count": 7,
+      "custom_return_types": [
+        "Hash",
+        "Option<&'static str>",
+        "std::cmp::Ordering",
+        "&mut CuckooEntry"
+      ],
+      "custom_return_types_count": 4,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 37.5,
+      "percentage_functions_custom_type": 45.83333333333333,
+      "percentage_functions_with_custom_return_type": 75.0,
+      "percentage_functions_with_mut": 8.333333333333332,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [
+          "CuckooHashTable",
+          "LogInfo",
+          "CuckooEntry",
+          "OpenHashTable",
+          "OpenEntry",
+          "Logger"
+        ],
+        "structs_count": 6,
+        "enums": [
+          "LogType"
+        ],
+        "enums_count": 1,
+        "type_aliases": [
+          "Hash",
+          "Key",
+          "Data"
+        ],
+        "type_aliases_count": 3,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "quadtree": {
+      "total_files": 2,
+      "interface_files": 0,
+      "total_functions": 23,
+      "total_args": 30,
+      "borrowed_arguments": 0,
+      "custom_arg_types": [
+        "Option<T>",
+        "Option<Box<QuadtreePoint>>",
+        "Option<fn(Option<T>)>",
+        "Option<Box<QuadtreeNode<T>>>",
+        "Option<Box<T>>",
+        "fn(&mut Option<Box<QuadtreeNode<T>>>)"
+      ],
+      "custom_arg_types_count": 6,
+      "custom_return_types": [
+        "&mut Option<Box<QuadtreePoint>>",
+        "QuadtreePoint",
+        "QuadtreeBounds",
+        "QuadtreeNode<T>",
+        "Quadtree<T>"
+      ],
+      "custom_return_types_count": 5,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 4.3478260869565215,
+      "percentage_functions_custom_type": 39.130434782608695,
+      "percentage_functions_with_custom_return_type": 82.6086956521739,
+      "percentage_functions_with_mut": 4.3478260869565215,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 26.08695652173913,
+      "custom_types": {
+        "structs": [
+          "QuadtreePoint",
+          "QuadtreeBounds",
+          "QuadtreeNode",
+          "Quadtree"
+        ],
+        "structs_count": 4,
+        "enums": [],
+        "enums_count": 0,
+        "type_aliases": [],
+        "type_aliases_count": 0,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "libtinyfseq": {
+      "total_files": 2,
+      "interface_files": 0,
+      "total_functions": 5,
+      "total_args": 13,
+      "borrowed_arguments": 4,
+      "custom_arg_types": [
+        "&mut TFChannelRange",
+        "&mut TFVarHeader",
+        "&mut TFHeader",
+        "&mut TFCompressionBlock"
+      ],
+      "custom_arg_types_count": 4,
+      "custom_return_types": [
+        "&'static str",
+        "TFError"
+      ],
+      "custom_return_types_count": 2,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 80.0,
+      "percentage_functions_custom_type": 80.0,
+      "percentage_functions_with_custom_return_type": 100.0,
+      "percentage_functions_with_mut": 80.0,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [
+          "TFVarHeader",
+          "TFChannelRange",
+          "TFCompressionBlock",
+          "TFHeader"
+        ],
+        "structs_count": 4,
+        "enums": [
+          "TFCompressionType",
+          "TFError"
+        ],
+        "enums_count": 2,
+        "type_aliases": [],
+        "type_aliases_count": 0,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "dict": {
+      "total_files": 2,
+      "interface_files": 0,
+      "total_functions": 19,
+      "total_args": 35,
+      "borrowed_arguments": 16,
+      "custom_arg_types": [
+        "&'dict mut Dict",
+        "DictType",
+        "&mut Dict",
+        "&mut DictElem",
+        "DictArgs",
+        "&mut DictBucket",
+        "&Dict"
+      ],
+      "custom_arg_types_count": 7,
+      "custom_return_types": [
+        "Dict"
+      ],
+      "custom_return_types_count": 1,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 84.21052631578947,
+      "percentage_functions_custom_type": 100.0,
+      "percentage_functions_with_custom_return_type": 47.368421052631575,
+      "percentage_functions_with_mut": 52.63157894736842,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [
+          "DictAlloc",
+          "Dict",
+          "DictKeyAttr",
+          "DictValAttr",
+          "DictArgs",
+          "DictBucket",
+          "DictElem"
+        ],
+        "structs_count": 7,
+        "enums": [
+          "DictType"
+        ],
+        "enums_count": 1,
+        "type_aliases": [
+          "DictFree",
+          "DictHash",
+          "DictDeepCopy",
+          "DictMalloc",
+          "DictDestructor",
+          "DictCmpr"
+        ],
+        "type_aliases_count": 6,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "leftpad": {
+      "total_files": 2,
+      "interface_files": 0,
+      "total_functions": 1,
+      "total_args": 4,
+      "borrowed_arguments": 1,
+      "custom_arg_types": [],
+      "custom_arg_types_count": 0,
+      "custom_return_types": [],
+      "custom_return_types_count": 0,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 100.0,
+      "percentage_functions_custom_type": 0.0,
+      "percentage_functions_with_custom_return_type": 0.0,
+      "percentage_functions_with_mut": 100.0,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [],
+        "structs_count": 0,
+        "enums": [],
+        "enums_count": 0,
+        "type_aliases": [],
+        "type_aliases_count": 0,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "aes128_SIMD": {
+      "total_files": 8,
+      "interface_files": 0,
+      "total_functions": 17,
+      "total_args": 31,
+      "borrowed_arguments": 14,
+      "custom_arg_types": [
+        "__m128i"
+      ],
+      "custom_arg_types_count": 1,
+      "custom_return_types": [
+        "__m128i"
+      ],
+      "custom_return_types_count": 1,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 82.35294117647058,
+      "percentage_functions_custom_type": 5.88235294117647,
+      "percentage_functions_with_custom_return_type": 76.47058823529412,
+      "percentage_functions_with_mut": 70.58823529411765,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [],
+        "structs_count": 0,
+        "enums": [],
+        "enums_count": 0,
+        "type_aliases": [],
+        "type_aliases_count": 0,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "Genetic_neural_network_for_simple_control": {
+      "total_files": 14,
+      "interface_files": 0,
+      "total_functions": 64,
+      "total_args": 122,
+      "borrowed_arguments": 55,
+      "custom_arg_types": [
+        "&Signal",
+        "&Matrix",
+        "&mut Option<fn(&mut [f32])>",
+        "&mut Signal",
+        "&Pop",
+        "&mut Option<fn(&mut [f32]) -> f32>",
+        "&mut NNInput",
+        "&mut W",
+        "fn(f32)->f32",
+        "&mut NN",
+        "&mut InputPop",
+        "NN",
+        "NNInput",
+        "&mut pid_controller::PID",
+        "&mut SystemNN",
+        "&[i32]",
+        "Matrix",
+        "&mut Matrix",
+        "&[f32]",
+        "&mut PID",
+        "&mut File",
+        "&mut Pop",
+        "&mut model_system::SystemNN",
+        "&mut Option<fn(f32) -> f32>",
+        "&mut population::Pop",
+        "&mut [f32]"
+      ],
+      "custom_arg_types_count": 26,
+      "custom_return_types": [
+        "Matrix"
+      ],
+      "custom_return_types_count": 1,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 85.9375,
+      "percentage_functions_custom_type": 89.0625,
+      "percentage_functions_with_custom_return_type": 87.5,
+      "percentage_functions_with_mut": 79.6875,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [
+          "NNInput",
+          "Pop",
+          "PID",
+          "SystemNN",
+          "InputPop",
+          "Signal",
+          "NN",
+          "Matrix"
+        ],
+        "structs_count": 8,
+        "enums": [],
+        "enums_count": 0,
+        "type_aliases": [],
+        "type_aliases_count": 0,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "totp": {
+      "total_files": 3,
+      "interface_files": 0,
+      "total_functions": 12,
+      "total_args": 29,
+      "borrowed_arguments": 11,
+      "custom_arg_types": [],
+      "custom_arg_types_count": 0,
+      "custom_return_types": [],
+      "custom_return_types_count": 0,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 91.66666666666666,
+      "percentage_functions_custom_type": 0.0,
+      "percentage_functions_with_custom_return_type": 16.666666666666664,
+      "percentage_functions_with_mut": 58.333333333333336,
+      "percentage_functions_with_lifetime": 8.333333333333332,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [],
+        "structs_count": 0,
+        "enums": [],
+        "enums_count": 0,
+        "type_aliases": [],
+        "type_aliases_count": 0,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "NandC": {
+      "total_files": 2,
+      "interface_files": 0,
+      "total_functions": 14,
+      "total_args": 28,
+      "borrowed_arguments": 3,
+      "custom_arg_types": [
+        "U4"
+      ],
+      "custom_arg_types_count": 1,
+      "custom_return_types": [
+        "&'static str",
+        "U4"
+      ],
+      "custom_return_types_count": 2,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 21.428571428571427,
+      "percentage_functions_custom_type": 14.285714285714285,
+      "percentage_functions_with_custom_return_type": 28.57142857142857,
+      "percentage_functions_with_mut": 21.428571428571427,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [],
+        "structs_count": 0,
+        "enums": [],
+        "enums_count": 0,
+        "type_aliases": [
+          "U4"
+        ],
+        "type_aliases_count": 1,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "expr": {
+      "total_files": 2,
+      "interface_files": 0,
+      "total_functions": 16,
+      "total_args": 21,
+      "borrowed_arguments": 8,
+      "custom_arg_types": [
+        "&MapperExpr",
+        "&mut ExprNode",
+        "&Token",
+        "&ExprNode",
+        "&stack_obj_t",
+        "&mut MapperExpr",
+        "&'a MapperSignalValue"
+      ],
+      "custom_arg_types_count": 7,
+      "custom_return_types": [
+        "Option<&'static FunctionEntry>",
+        "Vec<Token>",
+        "ExprNode",
+        "MapperExpr",
+        "MapperSignalValue"
+      ],
+      "custom_return_types_count": 5,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 56.25,
+      "percentage_functions_custom_type": 37.5,
+      "percentage_functions_with_custom_return_type": 68.75,
+      "percentage_functions_with_mut": 12.5,
+      "percentage_functions_with_lifetime": 6.25,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [
+          "FunctionEntry",
+          "Token",
+          "ExprNode",
+          "MapperExpr"
+        ],
+        "structs_count": 4,
+        "enums": [
+          "MapperSignalValue",
+          "ExprFunc",
+          "state_t",
+          "stack_obj_t",
+          "TokenType"
+        ],
+        "enums_count": 5,
+        "type_aliases": [],
+        "type_aliases_count": 0,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "lambda_calculus_eval": {
+      "total_files": 8,
+      "interface_files": 0,
+      "total_functions": 72,
+      "total_args": 114,
+      "borrowed_arguments": 59,
+      "custom_arg_types": [
+        "Type",
+        "Option<&TypeEnv>",
+        "fmt::Arguments",
+        "&Type",
+        "common::tokens_t",
+        "&mut File",
+        "&mut hash_table::HashTable",
+        "&mut Option<Box<TypeEnv>>",
+        "&AstNode",
+        "HashTable",
+        "&hash_table::HashTable",
+        "&common::AstNode",
+        "config::reduction_order_t",
+        "&TypeEnv",
+        "common::AstNode",
+        "File",
+        "&mut common::AstNode"
+      ],
+      "custom_arg_types_count": 17,
+      "custom_return_types": [
+        "io::Result<()>",
+        "Type",
+        "io::Result<char>",
+        "io::Result<File>",
+        "option_type_t",
+        "common::tokens_t",
+        "Options",
+        "Option<&common::AstNode>",
+        "HashTable",
+        "common::AstNode"
+      ],
+      "custom_return_types_count": 10,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 81.94444444444444,
+      "percentage_functions_custom_type": 63.888888888888886,
+      "percentage_functions_with_custom_return_type": 77.77777777777779,
+      "percentage_functions_with_mut": 31.944444444444443,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 1.3888888888888888,
+      "custom_types": {
+        "structs": [
+          "AstNode",
+          "Type",
+          "Variable",
+          "Options",
+          "LambdaExpression",
+          "TypeEnv",
+          "HashTable",
+          "Application"
+        ],
+        "structs_count": 8,
+        "enums": [
+          "tokens_t",
+          "AstNodeUnion",
+          "option_type_t",
+          "AstNodeType",
+          "reduction_order_t"
+        ],
+        "enums_count": 5,
+        "type_aliases": [],
+        "type_aliases_count": 0,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "emlang": {
+      "total_files": 8,
+      "interface_files": 0,
+      "total_functions": 36,
+      "total_args": 27,
+      "borrowed_arguments": 12,
+      "custom_arg_types": [
+        "data::Data",
+        "&Program",
+        "Em",
+        "EmType",
+        "&mut fmt::Formatter<'_>",
+        "&mut std::fmt::Formatter<'_>",
+        "DataType"
+      ],
+      "custom_arg_types_count": 7,
+      "custom_return_types": [
+        "em::Program",
+        "std::fmt::Result",
+        "Option<data::Data>",
+        "fmt::Result",
+        "Data",
+        "ParserResult",
+        "RuntimeResult"
+      ],
+      "custom_return_types_count": 7,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 33.33333333333333,
+      "percentage_functions_custom_type": 27.77777777777778,
+      "percentage_functions_with_custom_return_type": 75.0,
+      "percentage_functions_with_mut": 11.11111111111111,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [
+          "Popped",
+          "Parser",
+          "Em",
+          "Data",
+          "Program",
+          "ParserResult",
+          "Env",
+          "RuntimeResult",
+          "Stack"
+        ],
+        "structs_count": 9,
+        "enums": [
+          "ParserError",
+          "RuntimeError",
+          "DataValue",
+          "EmType",
+          "DataType"
+        ],
+        "enums_count": 5,
+        "type_aliases": [],
+        "type_aliases_count": 0,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "libbeaufort": {
+      "total_files": 4,
+      "interface_files": 0,
+      "total_functions": 8,
+      "total_args": 8,
+      "borrowed_arguments": 4,
+      "custom_arg_types": [],
+      "custom_arg_types_count": 0,
+      "custom_return_types": [],
+      "custom_return_types_count": 0,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 50.0,
+      "percentage_functions_custom_type": 0.0,
+      "percentage_functions_with_custom_return_type": 37.5,
+      "percentage_functions_with_mut": 0.0,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [],
+        "structs_count": 0,
+        "enums": [],
+        "enums_count": 0,
+        "type_aliases": [],
+        "type_aliases_count": 0,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "bigint": {
+      "total_files": 2,
+      "interface_files": 0,
+      "total_functions": 38,
+      "total_args": 24,
+      "borrowed_arguments": 18,
+      "custom_arg_types": [
+        "&mut BigInt",
+        "&mut fmt::Formatter",
+        "&BigInt"
+      ],
+      "custom_arg_types_count": 3,
+      "custom_return_types": [
+        "fmt::Result",
+        "BigInt",
+        "Option<Ordering>"
+      ],
+      "custom_return_types_count": 3,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 47.368421052631575,
+      "percentage_functions_custom_type": 15.789473684210526,
+      "percentage_functions_with_custom_return_type": 23.684210526315788,
+      "percentage_functions_with_mut": 5.263157894736842,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [
+          "BigInt"
+        ],
+        "structs_count": 1,
+        "enums": [],
+        "enums_count": 0,
+        "type_aliases": [
+          "Output"
+        ],
+        "type_aliases_count": 1,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "rect_pack_h": {
+      "total_files": 2,
+      "interface_files": 0,
+      "total_functions": 8,
+      "total_args": 20,
+      "borrowed_arguments": 4,
+      "custom_arg_types": [
+        "&Rect",
+        "&mut [Rect]"
+      ],
+      "custom_arg_types_count": 2,
+      "custom_return_types": [
+        "Option<&BinNode>"
+      ],
+      "custom_return_types_count": 1,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 50.0,
+      "percentage_functions_custom_type": 50.0,
+      "percentage_functions_with_custom_return_type": 50.0,
+      "percentage_functions_with_mut": 12.5,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [
+          "Rect",
+          "RectPacker",
+          "RectOutInfo",
+          "BinNode"
+        ],
+        "structs_count": 4,
+        "enums": [],
+        "enums_count": 0,
+        "type_aliases": [],
+        "type_aliases_count": 0,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "Simple_Sparsehash": {
+      "total_files": 2,
+      "interface_files": 0,
+      "total_functions": 8,
+      "total_args": 20,
+      "borrowed_arguments": 4,
+      "custom_arg_types": [
+        "&mut SparseDict",
+        "Box<SparseArray>",
+        "&'a SparseDict",
+        "Box<SparseDict>",
+        "&mut SparseArray",
+        "&'a SparseArray"
+      ],
+      "custom_arg_types_count": 6,
+      "custom_return_types": [
+        "Option<Box<SparseArray>>",
+        "Option<Box<SparseDict>>"
+      ],
+      "custom_return_types_count": 2,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 50.0,
+      "percentage_functions_custom_type": 75.0,
+      "percentage_functions_with_custom_return_type": 25.0,
+      "percentage_functions_with_mut": 50.0,
+      "percentage_functions_with_lifetime": 25.0,
+      "percentage_functions_with_pointer_like_types": 25.0,
+      "custom_types": {
+        "structs": [
+          "SparseArrayGroup",
+          "SparseArray",
+          "SparseBucket",
+          "SparseDict"
+        ],
+        "structs_count": 4,
+        "enums": [],
+        "enums_count": 0,
+        "type_aliases": [],
+        "type_aliases_count": 0,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    },
+    "c_blind_rsa_signatures": {
+      "total_files": 2,
+      "interface_files": 0,
+      "total_functions": 40,
+      "total_args": 77,
+      "borrowed_arguments": 19,
+      "custom_arg_types": [
+        "&BRSABlindSignature",
+        "&mut BRSAPublicKey",
+        "&BRSAContext",
+        "Option<EVP_MD>",
+        "&BRSAPublicKey",
+        "Option<BIGNUM>",
+        "c_int",
+        "&BRSASecretKey",
+        "Option<EVP_PKEY>",
+        "&mut BRSASignature",
+        "Option<BN_CTX>",
+        "&BRSABlindingSecret",
+        "&mut BRSABlindingSecret",
+        "&BRSABlindMessage",
+        "&Option<BRSAMessageRandomizer>",
+        "&BRSAMessageRandomizer",
+        "BRSAHashFunction",
+        "&mut BRSABlindMessage",
+        "&BRSASignature",
+        "&mut BRSASecretKey",
+        "&mut BRSABlindSignature",
+        "&mut BRSASerializedKey",
+        "&mut BRSAMessageRandomizer"
+      ],
+      "custom_arg_types_count": 23,
+      "custom_return_types": [
+        "Option<BIGNUM>",
+        "c_int",
+        "Option<BN_MONT_CTX>"
+      ],
+      "custom_return_types_count": 3,
+      "pointers": 0,
+      "percentage_functions_with_borrowed_args": 47.5,
+      "percentage_functions_custom_type": 60.0,
+      "percentage_functions_with_custom_return_type": 42.5,
+      "percentage_functions_with_mut": 22.5,
+      "percentage_functions_with_lifetime": 0.0,
+      "percentage_functions_with_pointer_like_types": 0.0,
+      "custom_types": {
+        "structs": [
+          "BRSASignature",
+          "BRSAContext",
+          "BRSAPublicKey",
+          "BRSAMessageRandomizer",
+          "BRSABlindSignature",
+          "BRSABlindingSecret",
+          "BRSASecretKey",
+          "BRSASerializedKey",
+          "BRSABlindMessage"
+        ],
+        "structs_count": 9,
+        "enums": [
+          "BRSAHashFunction"
+        ],
+        "enums_count": 1,
+        "type_aliases": [],
+        "type_aliases_count": 0,
+        "traits": [],
+        "traits_count": 0
+      },
+      "traits_implemented": {
+        "Clone": 0,
+        "Debug": 0,
+        "Copy": 0,
+        "PartialEq": 0,
+        "PartialOrd": 0
+      }
+    }
+  },
+  "cumulative_stats": {
+    "total_projects": 100,
+    "total_files": 0,
+    "interface_files": 0,
+    "total_functions": 0,
+    "total_args": 0,
+    "borrowed_arguments": 0,
+    "custom_arg_types": [],
+    "custom_arg_types_count": 0,
+    "custom_return_types": [],
+    "custom_return_types_count": 0,
+    "pointers": 0,
+    "custom_types": {
+      "structs": [],
+      "structs_count": 0,
+      "enums": [],
+      "enums_count": 0,
+      "type_aliases": [],
+      "type_aliases_count": 0,
+      "traits": [],
+      "traits_count": 0
+    },
+    "traits_implemented": {
+      "Clone": 0,
+      "Debug": 0,
+      "Copy": 0,
+      "PartialEq": 0,
+      "PartialOrd": 0
+    }
+  }
+}

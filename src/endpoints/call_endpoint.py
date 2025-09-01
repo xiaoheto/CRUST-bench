@@ -25,6 +25,8 @@ def get_result(messages, lock, model, config):
     ):
         m = vclient.VLLMServer(model)
         return m.get_result(messages, lock, config)
+    elif model == "deepseek":  # 新增这个分支
+        return deepseek.get_result(messages, lock, config)  # 调用新模块
     elif model == "gemini":
         return gemini.get_result(messages, lock, config)
     else:
